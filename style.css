@@ -2,4 +2,9 @@
     width:40vh;
     height: 40vh;
     background-color: aqua;
+    border-radius: 50%;
+    border-bottom:120px solid orange ;
+    border-top: 120px solid green;
+    border-left: 120px solid blue;
+    border-right: 120px solid red;
 }
