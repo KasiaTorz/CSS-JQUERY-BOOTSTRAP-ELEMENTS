@@ -16,8 +16,15 @@
 
 }
 button{
-    background-color: white;
+    background-color: blue;
     color: green;
-    width:200px;
+    width: 200px;
+    height: 40px;
+    margin: 23px auto;
+    border: none;
+    margin-left: 309px;
+    align-content: center;
+    border-radius: 6%;
+}
 
 }
