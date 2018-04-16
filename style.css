@@ -7,4 +7,10 @@
     border-top: 120px solid green;
     border-left: 120px solid blue;
     border-right: 120px solid red;
+    margin: 0 auto;
+    transition:transform 8000ms ease;
+}
+.circle:hover{
+    transform: rotate(3600deg);
+
 }
