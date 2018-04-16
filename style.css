@@ -8,9 +8,10 @@
     border-left: 120px solid blue;
     border-right: 120px solid red;
     margin: 0 auto;
-    transition:transform 8000ms ease;
+    transition:all 8000ms ease;
 }
 .circle:hover{
-    transform: rotate(3600deg);
+    transform: rotate(3600deg) scale(0);
+
 
 }
