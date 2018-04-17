@@ -8,7 +8,7 @@
     border-left: 120px solid blue;
     border-right: 120px solid red;
     margin: 0 auto;
-    transition:all 8000ms ease;
+    transition:transform 8ms ease,border 3s ease-in-out;
 }
 .active{
     transform: rotate(3600deg);
