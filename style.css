@@ -1,7 +1,8 @@
 .circle{
     width:40vh;
     height: 40vh;
-    background-color: aqua;
+    background-image: url("photo.jpeg");
+    background-position: center;
     border-radius: 50%;
     border-bottom:120px solid orange ;
     border-top: 120px solid green;
