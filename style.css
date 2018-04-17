@@ -10,8 +10,12 @@
     margin: 0 auto;
     transition:all 8000ms ease;
 }
-.circle:hover{
-    transform: rotate(3600deg) scale(0);
+.active{
+    transform: rotate(3600deg);
+    border-bottom-color: orange;
+    border-top: yellowgreen;
+    border-left: pink;
+    border-right: fuchsia;
 
 
 }
