@@ -2,7 +2,7 @@
     width:40vh;
     height: 40vh;
     background-image: url("photo.jpeg");
-    background-position: center;
+    background-position: center 50%;
     border-radius: 50%;
     border-bottom:120px solid orange ;
     border-top: 120px solid green;
