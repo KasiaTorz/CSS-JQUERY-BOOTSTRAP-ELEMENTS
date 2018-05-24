@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: yellowgreen;
+    
+}
+
+
 .circle{
     width:40vh;
     height: 40vh;
