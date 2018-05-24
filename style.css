@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: yellowgreen;
-    
+
 }
 
 
@@ -26,6 +26,16 @@ body{
     border-left: pink;
     border-right: fuchsia;
     background-color: white;
+
+}
+#btn-heart{
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: purple;
 
 }
 button{
