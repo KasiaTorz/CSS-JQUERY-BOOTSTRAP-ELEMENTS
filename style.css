@@ -55,6 +55,10 @@ body{
 #btn-heart:hover::before{
     top:-30px; 
 }
+#btn-heart:after{
+    font-family: 'Ionicons';
+    content: '\f141';
+}
 
 button{
     background-color: blue;
