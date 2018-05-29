@@ -35,7 +35,7 @@ body{
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: purple;
+    background: #f1d107;
     cursor: pointer;
     border-radius: 5px;
     overflow: hidden;
@@ -58,6 +58,13 @@ body{
 #btn-heart:after{
     font-family: 'Ionicons';
     content: '\f141';
+    font-size: 40px;
+    color: red;
+    top:46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:140%;
+    transition: all 0.5s;
 }
 
 button{
