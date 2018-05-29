@@ -34,10 +34,11 @@ body{
     position: absolute;
     top: 100%;
     left: 50%;
-    bottom: 10%;
+
     transform: translate(-50%, -50%);
     background: purple;
     cursor: pointer;
+    border-radius: 5px;
 }
 #btn-heart:before{
         color: rgb(20, 122, 71);
@@ -49,6 +50,7 @@ body{
         top: 46%;
         left: 50%;
         transform: translate(-50%, -50%);
+        transition: all 0.5s;
     }
 button{
     background-color: blue;
