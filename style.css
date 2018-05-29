@@ -38,6 +38,7 @@ body{
     background: purple;
     cursor: pointer;
     border-radius: 5px;
+    overflow: hidden;
 }
 #btn-heart:before{
         color: rgb(20, 122, 71);
@@ -51,10 +52,10 @@ body{
         transform: translate(-50%, -50%);
         transition: all 0.5s;
     }
-#btn-heart:hover{
-    top:-30px;
-    
+#btn-heart:hover::before{
+    top:-30px; 
 }
+
 button{
     background-color: blue;
     color: green;
