@@ -51,6 +51,10 @@ body{
         transform: translate(-50%, -50%);
         transition: all 0.5s;
     }
+#btn-heart:hover{
+    top:-30px;
+    
+}
 button{
     background-color: blue;
     color: green;
