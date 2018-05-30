@@ -59,6 +59,7 @@ body{
     content: '\f141';
     font-size: 40px;
     color: red;
+    position: absolute;
     top:46%;
     left: 50%;
     transform: translate(-50%, -50%);
