@@ -83,6 +83,7 @@ button{
 }
 h1{
     font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
     margin-top:300px;
     margin-left: 450px;
     text-transform: uppercase;
