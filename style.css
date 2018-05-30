@@ -81,3 +81,9 @@ button{
     align-content: center;
     border-radius: 6%;
 }
+h1{
+    font-size: 100px;
+    margin-top:300px;
+    margin-left: 450px;
+    text-transform: uppercase;
+}
