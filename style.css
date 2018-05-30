@@ -32,7 +32,7 @@ body{
     width: 200px;
     height: 90px;
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #f1d107;
