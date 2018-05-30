@@ -42,10 +42,9 @@ body{
 }
 #btn-heart:before{
         color: rgb(20, 122, 71);
-        content: "Catch me";
+        content: 'Catch me';
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 14px;
-        align-content: center;
         position: absolute;
         top: 46%;
         left: 50%;
