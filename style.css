@@ -9,7 +9,7 @@ body{
 .circle{
     width:40vh;
     height: 40vh;
-    background-image: url("photo.jpeg");
+    background-image: url("images/photo.jpeg");
     background-position: center 50%;
     border-radius: 50%;
     border-bottom:120px solid orange ;
