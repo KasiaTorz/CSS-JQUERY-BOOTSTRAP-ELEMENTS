@@ -94,8 +94,8 @@ button{
 h1{
     font-size: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top:400px;
-    margin-left: 321px;
+    margin-top:0px;
+    margin-left: 124px;
     margin-bottom: 145px;
     text-transform: uppercase;
     font-weight: bold;
@@ -104,4 +104,11 @@ h1{
     transform: translate(-50%, -50%);
     background: url(images/harperbazzarUK.jpg);
     background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background-size: cover;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
 }
