@@ -82,6 +82,15 @@ button{
     border-radius: 6%;
 }
 
+#text{
+        margin: 209px 12px 12px auto;
+        padding: 169px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #ffff;
+    }
+
+
+
 h1{
     font-size: 150px;
     font-family: Arial, Helvetica, sans-serif;
