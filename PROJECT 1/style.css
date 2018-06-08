@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: yellowgreen;
+
+}
+
+
+.circle{
+    width:40vh;
+    height: 40vh;
+    background-image: url("images/photo.jpeg");
+    background-position:57%;
+    border-radius: 50%;
+    border-bottom:120px solid orange ;
+    border-top: 120px solid green;
+    border-left: 120px solid blue;
+    border-right: 120px solid red;
+    margin: 0 auto;
+    transition:transform 8ms ease,border 3s ease-in-out;
+}
+.active{
+    transform: rotate(3600deg);
+    border-bottom-color: orange;
+    border-top: yellowgreen;
+    border-left: pink;
+    border-right: fuchsia;
+    background-color: white;
+
+}
+#btn-heart{
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f1d107;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#btn-heart:before{
+        color: rgb(20, 122, 71);
+        content: 'Catch me';
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14px;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.5s;
+    }
+#btn-heart:hover:before{
+    top:-30px; 
+}
+#btn-heart:after{
+    font-family: 'Ionicons';
+    content: '\f141';
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top:46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:140%;
+    transition: all 0.5s;
+}
+#btn-heart:hover::after{
+    top:50%;
+}
+
+button{
+    background-color: blue;
+    color: green;
+    width: 200px;
+    height: 40px;
+    margin: 23px auto;
+    border: none;
+    margin-left: 309px;
+    align-content: center;
+    border-radius: 6%;
+}
+
+#text{
+        margin: 565px 12px 12px auto;
+        padding: 169px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: transparent;
+    }
+
+
+
+h1{
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0px;
+    margin-left: 124px;
+    margin-bottom: 145px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: url(images/harperbazzarUK.jpg);
+    background-size: cover;
+    top: 157%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background-size: cover;
+    /*-webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -moz-background-clip: text;*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation in css,with elements jquery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+ <div class="circle">
+ </div>
+ <button>start!</button>
+
+ <div id="btn-heart">
+ </div>
+ <div id="text"> 
+<h1> LIKE IT</h1>
+ </div>
+ <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script>
+    $('button').on('click',function () {
+        $('.circle').toggleClass('active');
+        console.log('jest ok');
+    })
+</script>
+</body>
+</html>
