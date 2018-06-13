@@ -12,6 +12,9 @@ body{
     color:wheat;
 
 }
+#exit-fullscreen{
+    display: none;
+}
 #main{
     height: 100vh;
     width: 100%;
