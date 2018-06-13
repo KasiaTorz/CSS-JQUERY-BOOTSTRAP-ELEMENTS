@@ -1,0 +1,1 @@
+$('body').fullScreenHelper('request');
