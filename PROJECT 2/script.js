@@ -1,1 +1,4 @@
-$('body').fullScreenHelper('request');
+
+$("#fullscreen").click(function(){
+  $('body').fullScreenHelper('request');   
+});
