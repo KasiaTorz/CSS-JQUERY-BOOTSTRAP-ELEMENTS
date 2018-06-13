@@ -1,4 +1,5 @@
 
-$("#fullscreen").click(function(){
-  $('body').fullScreenHelper('request');   
+fullscreen.addEventListener("click",function(){
+    alert ("Hello World!");
 });
+
