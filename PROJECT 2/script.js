@@ -1,5 +1,5 @@
 
 fullscreen.addEventListener("click",function(){
-    alert ("Hello World!");
+    $('fullscreen').fullscreenHelper('request');
 });
 
