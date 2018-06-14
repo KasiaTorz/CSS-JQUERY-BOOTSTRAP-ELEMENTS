@@ -1,7 +1,10 @@
-$(document).ready(function(){
-    $("p").click(function(){
-        $(this).hide();
-    });
+$(document).on("fullscreenchange", function(){
+    if ($.fullscreenHelper("state")){
+
+    }else{
+
+    }
+
 });
 
 
