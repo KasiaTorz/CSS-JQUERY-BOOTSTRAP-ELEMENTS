@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $("fullscreen").click(function(){
-        $(this).click();
+    $("p").click(function(){
+        $(this).hide();
     });
 });
 
