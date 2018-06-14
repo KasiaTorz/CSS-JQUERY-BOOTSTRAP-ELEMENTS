@@ -1,6 +1,7 @@
 $(document).on("fullscreenchange", function(){
     if ($.fullscreenHelper("state")){
-    $("exitexit-fullscreen").css("display","block");
+    $("exit-fullscreen").css("display","block");
+    $("fullscreen").css("display","none");
     }else{
 
     }
