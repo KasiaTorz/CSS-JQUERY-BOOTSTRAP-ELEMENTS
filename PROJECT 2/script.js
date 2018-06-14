@@ -1,5 +1,7 @@
-
-fullscreen.addEventListener("click",function(){
-    $('fullscreen').fullscreenHelper('request');
+$(document).ready(function(){
+    $("fullscreen").click(function(){
+        $(this).click();
+    });
 });
+
 
