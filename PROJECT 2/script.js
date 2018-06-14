@@ -3,6 +3,8 @@ $(document).on("fullscreenchange", function(){
     $("exit-fullscreen").css("display","block");
     $("fullscreen").css("display","none");
     }else{
+        $("fullscreen").css("display","none");
+        $("exit-fullscreen").css("display","block");
 
     }
 
