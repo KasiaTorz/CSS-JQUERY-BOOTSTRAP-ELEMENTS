@@ -1,8 +1,9 @@
 body{
     margin:0px;
     padding: 0px;
-    box-sizing: border-box;
     overflow: hidden;
+    background-image: url(COLA\ KEY.jpg);
+    background-size: 100% 100%;
 }
 #fullscreen, #exit-fullscreen{
     font-family: Arial, Helvetica, sans-serif;
@@ -20,4 +21,11 @@ body{
     height: 100vh;
     width: 100%;
     background-size: 100%;
+}
+#logo{
+    position: absolute;
+        margin-top: 20pxpx;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    
 }
