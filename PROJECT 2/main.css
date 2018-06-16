@@ -48,8 +48,18 @@ ul>li{
     color:#ffff;
     position: absolute;
     top:50%;
-    left:10%;
+    left:15%;
     transform: translate(-50%,-50%);
     text-shadow: 0 10px 10px rgba(0,0,0, 0.1);
-
+}
+#msg2{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align:right;
+    color: #ffff;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
 }
