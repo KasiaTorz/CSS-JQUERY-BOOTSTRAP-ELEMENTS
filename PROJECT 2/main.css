@@ -36,3 +36,10 @@ ul{
     top:100px;
     left:60px;
 }
+ul>li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#ffff;
+    margin-top: 50px;
+  
+}
