@@ -75,5 +75,8 @@ height: 70px;
 position: absolute;
 top:80%;
 left:50%;
+perspective: 800px;
+transform:translate(-50%,-50%);
+cursor: pointer;
 
 }
