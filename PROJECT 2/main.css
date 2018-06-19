@@ -65,7 +65,7 @@ ul>li{
     display:none;
 }
 #skate{
-    position: absolute;
+    /*position: absolute;*/
     top:20%;
     left:120%;
 }
