@@ -2,7 +2,7 @@ body{
     margin:0px;
     padding: 0px;
     overflow: hidden;
-    background-color: aqua;
+    background-color:aqua;
     background-size: 100% 100%;
 }
 #fullscreen, #exit-fullscreen{
