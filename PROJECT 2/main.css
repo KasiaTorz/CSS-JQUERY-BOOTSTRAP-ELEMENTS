@@ -92,4 +92,9 @@ cursor: pointer;
     line-height: 35px;
     text-shadow:5px 10px rgba(0,0,0,.2);
     box-shadow: 0 15px 30px rgba(59,2,97,.4);
+    transition:width 2s linear 1s;  
+}
+#boxBottom{
+    width: 100%;
+    height: 30px;
 }
