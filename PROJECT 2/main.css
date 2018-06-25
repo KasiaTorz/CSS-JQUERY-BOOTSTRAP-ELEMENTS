@@ -109,4 +109,6 @@ cursor: pointer;
     color: #52Dee7;
     background-color: #4A0472;
     transform: rotateX(25deg);
+    text-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 25px 30px rgba(59,2,97,.4);
 }
