@@ -105,3 +105,7 @@ cursor: pointer;
     transform:rotateX(-50deg);
     transition: all .5s;
 }
+#main:hover #box{
+    color: #52Dee7;
+    background-color: #4A0472;
+}
