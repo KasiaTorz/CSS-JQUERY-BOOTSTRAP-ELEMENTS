@@ -124,3 +124,9 @@ cursor: pointer;
 #main:hover #boxBottom{
     transform: rotateY(-15deg);
 }
+/*-------------FORM---------------------*/
+#form{
+    width: 400px;
+    margin-left: 890px;
+    margin-right: 50px;
+}
