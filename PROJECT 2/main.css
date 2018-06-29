@@ -134,6 +134,10 @@ cursor: pointer;
     width: 90%;
     margin: 0 10%;
 }
+#progressbar >li{
+    list-style-type: none;
+    color:#EEF0EB;
+}
 .fs-title{
     font-size: 20px;
     text-transform: uppercase;
