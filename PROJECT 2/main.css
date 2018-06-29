@@ -142,6 +142,7 @@ cursor: pointer;
 }
 .fs-subtitle{
     font-weight: 400;
+    text-transform: uppercase;
     font-size: 18px;
     color:#F4F9E9;
     margin-bottom: 20px;
