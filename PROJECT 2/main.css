@@ -127,10 +127,15 @@ cursor: pointer;
     text-align:left;
 }
 #form >fieldset{
-    background:#0362c2;
+    background:#284B63;
     border-radius: 5px;
     padding: 20px 30px;
     box-sizing: border-box;
     width: 90%;
     margin: 0 10%;
+}
+.fs-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#F4F9E9;
 }
