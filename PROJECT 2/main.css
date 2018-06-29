@@ -64,15 +64,6 @@ ul>li{
     transform: translate(-50%, -50%);
     display:none;
 }
-#form{
-        width: 369px;
-        height: 490px;
-        display: block;
-        margin-left: 920px;
-        margin-top: 10px;
-        margin-right:100px;
-        background-color: white;
-}
 #skate{
     top:70%;
     left:120%;
@@ -127,8 +118,12 @@ cursor: pointer;
 /*-------------FORM---------------------*/
 #form{
     width: 400px;
-    margin-left: 890px;
+    height: 490px;
+    display: block;
+    margin-left: 920px;
+    margin-top: 10px;
     margin-right: 50px;
+    /*background-color: white;*/
     text-align:left;
 }
 #form >fieldset{

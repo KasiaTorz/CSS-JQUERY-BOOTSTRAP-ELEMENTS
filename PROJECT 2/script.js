@@ -1,5 +1,5 @@
 
-      /*  $(document).on("fullscreenchange", function () {
+       $(document).on("fullscreenchange", function () {
             if ($.fullScreenHelper("state")) {
                   $("#exitfullscreen").css("display","block");
                   $("#fullscreen").css("display","none");
@@ -8,7 +8,7 @@
                   $("#fullscreen").css("display","block");
             }
           });
-*/
+
 $(document).ready(function(){
     $("#skate").animate({left:"70%"},1000);
     $("#msg").slideDown(1000);
