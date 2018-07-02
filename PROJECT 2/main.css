@@ -117,7 +117,7 @@ cursor: pointer;
 }
 /*-------------FORM---------------------*/
 #form{
-    width: 400px;
+    width: 450px;
     height: 490px;
     display: block;
     margin-left: 920px;
@@ -131,11 +131,14 @@ cursor: pointer;
     border-radius: 5px;
     padding: 20px 30px;
     box-sizing: border-box;
-    width: 90%;
-    margin: 0 10%;
+    width: 100%;
+    margin:0 10%;
+   
 }
 #progressbar{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    counter-reset: step;
 }
 .li-form{
     list-style-type: none;
