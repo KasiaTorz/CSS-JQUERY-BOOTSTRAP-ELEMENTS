@@ -147,6 +147,8 @@ cursor: pointer;
     font-size:9px;
     width: 32.33%;
     display: -webkit-inline-box;
+    float: left;
+    position: relative;
 }
 .li-form::before{
     content: counter(step);
@@ -159,6 +161,9 @@ cursor: pointer;
     background: #F4F9E9;
     border-radius:3px;
     margin: 0 auto 5 px auto; 
+}
+.li-form:after{
+
 }
 .fs-title{
     font-size: 20px;
