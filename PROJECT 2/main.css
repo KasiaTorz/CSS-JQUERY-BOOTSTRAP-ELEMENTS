@@ -134,9 +134,15 @@ cursor: pointer;
     width: 90%;
     margin: 0 10%;
 }
-#progressbar >li{
+#progressbar{
+    margin-bottom: 20px;
+}
+.li-form{
     list-style-type: none;
-    color:#EEF0EB;
+    color:#284B63;
+    text-transform: uppercase;
+    font-size:9px;
+    width: 33.33%;
 }
 .fs-title{
     font-size: 20px;
@@ -146,7 +152,6 @@ cursor: pointer;
 }
 .fs-subtitle{
     font-weight: 400;
-    text-transform: uppercase;
     font-size: 18px;
     color:#F4F9E9;
     margin-bottom: 20px;
