@@ -145,7 +145,20 @@ cursor: pointer;
     color:#284B63;
     text-transform: uppercase;
     font-size:9px;
-    width: 33.33%;
+    width: 32.33%;
+    display: -webkit-inline-box;
+}
+.li-form::before{
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    font-size:10px;
+    color: #284B63;
+    background: #F4F9E9;
+    border-radius:3px;
+    margin: 0 auto 5 px auto; 
 }
 .fs-title{
     font-size: 20px;
