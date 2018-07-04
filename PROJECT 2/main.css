@@ -162,6 +162,7 @@ cursor: pointer;
     border-radius:3px;
     margin: 0 auto 5 px auto; 
 }
+/* progress connetions*/
 .li-form:after{
     content: "";
     width: 100%;
@@ -170,6 +171,8 @@ cursor: pointer;
     position: absolute;
     left: -50%;
     top:18px;
+    z-index: -1;/* to put name behind the number*/
+
 
 }
 .fs-title{
