@@ -172,8 +172,9 @@ cursor: pointer;
     left: -50%;
     top:18px;
     z-index: -1;/* to put name behind the number*/
-
-
+}
+#progressbar li:first-child:after{
+    content: none;
 }
 .fs-title{
     font-size: 20px;
