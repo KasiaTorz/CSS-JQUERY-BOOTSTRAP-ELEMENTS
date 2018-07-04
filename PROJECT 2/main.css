@@ -181,6 +181,12 @@ cursor: pointer;
     background: #27AE60;
     color: aliceblue;
 }
+.li.li-form :first-child:active::after{
+    background: #27AE60;
+    color: aliceblue;
+}
+
+
 .fs-title{
     font-size: 20px;
     text-transform: uppercase;
