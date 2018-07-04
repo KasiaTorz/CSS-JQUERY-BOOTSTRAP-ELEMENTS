@@ -176,6 +176,11 @@ cursor: pointer;
 #progressbar li:first-child:after{
     content: none;
 }
+/* making completed steps green*/
+ .li.li-form :first-child:active::before{
+    background: #27AE60;
+    color: aliceblue;
+}
 .fs-title{
     font-size: 20px;
     text-transform: uppercase;
