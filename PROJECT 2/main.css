@@ -178,6 +178,7 @@ cursor: pointer;
     z-index: -1;/* to put name behind the number*/
 }
 #progressbar li:first-child:after{
+    /*connector is not before first step of registration*/
     content: none;
 }
 /* making completed steps green*/
