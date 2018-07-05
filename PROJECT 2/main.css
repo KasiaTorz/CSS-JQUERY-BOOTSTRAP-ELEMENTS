@@ -166,7 +166,7 @@ cursor: pointer;
     border-radius:3px;
     margin: 0 auto 5 px auto; 
 }
-/* progress connetions*/
+/* progress connector*/
 .li-form:after{
     content: "";
     width: 100%;
