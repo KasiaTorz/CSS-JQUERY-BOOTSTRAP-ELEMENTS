@@ -170,7 +170,7 @@ cursor: pointer;
 .li-form:after{
     content: "";
     width: 100%;
-    height: 12px;
+    height: 1px;
     background: #F4F9E9;
     position: absolute;
     left: -50%;
