@@ -155,6 +155,10 @@ width: 80px;
 background: #27AE60;
 font-weight: bolder;
 border-color: #27AE60;
+border-radius: 2px;
+cursor: pointer;
+padding: 10px 5px;
+margin:10px 5px;
 }
 #progressbar{
     margin-bottom: 30px;
