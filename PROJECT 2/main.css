@@ -177,14 +177,16 @@ cursor: pointer;
     top:15px;
     z-index: -1;/* to put name behind the number*/
 }
+/* green step after*/
+#progressbar .li-form.active::before, #progressbar .li-form.active::after{
+    background: #27AE60;
+    color:white;
+}
 #progressbar li:first-child:after{
     /*connector is not before first step of registration*/
     content: none;
 }
-#progressbar .li-form.active::before{
-    background: #27AE60;
-    color:white;
-}
+
 /* making completed steps green*/
  .li.li-form :first-child:active::before{
     background: #27AE60;
