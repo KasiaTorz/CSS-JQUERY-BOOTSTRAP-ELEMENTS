@@ -137,7 +137,7 @@ cursor: pointer;
 
 /*hide all expect filedset*/
 #form fieldset:not(:first-of-type){
-
+display: none;
 }
 #progressbar{
     margin-bottom: 30px;
