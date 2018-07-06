@@ -157,10 +157,10 @@ cursor: pointer;
 .li-form::before{
     content: counter(step);
     counter-increment: step;
-    width: 21px;
+    width: 17px;
     line-height: 25px;
     display: block;
-    font-size:10px;
+    font-size:18px;
     color: #284B63;
     background: #F4F9E9;
     border-radius:3px;
@@ -173,13 +173,17 @@ cursor: pointer;
     height: 1px;
     background: #F4F9E9;
     position: absolute;
-    left: -85%;
+    left: -75%;
     top:15px;
     z-index: -1;/* to put name behind the number*/
 }
 #progressbar li:first-child:after{
     /*connector is not before first step of registration*/
     content: none;
+}
+#progressbar .li-form.active::before{
+    background: #27AE60;
+    color:white;
 }
 /* making completed steps green*/
  .li.li-form :first-child:active::before{
