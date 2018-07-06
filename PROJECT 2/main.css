@@ -132,13 +132,18 @@ cursor: pointer;
     padding: 20px 30px;
     box-sizing: border-box;
     width: 100%;
-    margin:0 10%;
+    margin:0 10% 0 -6%;
 }
 
 /*hide all expect filedset*/
 #form fieldset:not(:first-of-type){
 display: none;
 }
+#form input, textarea{
+    padding: 10px;
+
+}
+
 #progressbar{
     margin-bottom: 30px;
     overflow: hidden;
