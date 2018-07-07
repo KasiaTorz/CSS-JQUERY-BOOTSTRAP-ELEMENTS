@@ -175,6 +175,15 @@ font-family: Arial, Helvetica, sans-serif;
 margin-left: 189px;
 margin-top: -26px;
 }
+#p-password{
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-block-start: -13px;
+        margin-left: 159px;
+        color: white;
+        margin-top: -14px;
+        opacity: 0.5;
+}
 #progressbar{
     margin-bottom: 30px;
     overflow: hidden;
