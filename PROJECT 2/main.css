@@ -159,6 +159,13 @@ border-radius: 2px;
 cursor: pointer;
 padding: 10px 5px;
 margin:10px 5px;
+color: wheat;
+}
+p{
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 189px;
+margin-top: -26px;
 }
 #progressbar{
     margin-bottom: 30px;
