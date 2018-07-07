@@ -184,6 +184,14 @@ margin-top: -26px;
         margin-top: -14px;
         opacity: 0.5;
 }
+#p-keeplogin{
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 188px;
+        color: white;
+        margin-top: -23px;
+        opacity: 0.5;
+}
 #progressbar{
     margin-bottom: 30px;
     overflow: hidden;
