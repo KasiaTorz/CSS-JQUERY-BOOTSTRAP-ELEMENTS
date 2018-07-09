@@ -161,6 +161,9 @@ padding: 10px 5px;
 margin:10px 5px;
 color: wheat;
 }
+#form .action-next:hover, #form .action-next:focus{
+
+}
 label{
 text-align: left;
 font-weight: 400;
