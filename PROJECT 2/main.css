@@ -133,6 +133,7 @@ cursor: pointer;
     box-sizing: border-box;
     width: 100%;
     margin:0 10% 0 -6%;
+    /* make fieldset above each other*/
 }
 
 /*hide all expect filedset*/
@@ -148,6 +149,7 @@ display: none;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color:#3c3a3a;
+    font-size: 13px;
 }
 /*next-button*/
 #form .action-next{
