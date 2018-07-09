@@ -15,4 +15,8 @@ $(document).ready(function(){
     $("#msg2").delay(500).slideDown(1000);
 });
 
+//jqiuery to the form//
+var current_fs; 
+var next_fs;
+var previous_fs;
 
