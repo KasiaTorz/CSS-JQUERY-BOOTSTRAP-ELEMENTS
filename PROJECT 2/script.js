@@ -16,7 +16,12 @@ $(document).ready(function(){
 });
 
 //jqiuery to the form//
-var current_fs; 
+var current_fs; //fieldsets//
 var next_fs;
 var previous_fs;
+
+var left;
+var opacity;
+var scale; // fieldsets poroperties which will animate//
+
 
