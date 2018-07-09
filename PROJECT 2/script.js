@@ -27,4 +27,6 @@ var scale; // fieldsets poroperties which will animate//
 $(".action-next").click(function(){
       current_fs= $(this).parent();
       next_fs= $(this).parent().next();
+//active next step in progressbar using button next//
+$("#progressbar li- form active").eq($("#form fieldset").index(next_fs)).addClass("active");
 })
