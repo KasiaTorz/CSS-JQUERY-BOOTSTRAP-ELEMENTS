@@ -162,7 +162,7 @@ margin:10px 5px;
 color: wheat;
 }
 #form .action-next:hover, #form .action-next:focus{
-
+box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
 }
 label{
 text-align: left;
