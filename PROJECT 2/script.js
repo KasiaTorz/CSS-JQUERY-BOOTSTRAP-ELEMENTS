@@ -52,14 +52,14 @@ next_fs.show();
       });
 
 });
-$(".prvious").click(function(){
+$(".previous").click(function(){
       current_fs= $(this).parent();
       previous_fs= $(this).parent().prev();
 //de-active next step in progressbar using button next//
 $("#progressbar li ").eq($("fieldset").index(current_fs)).removeClass("active");
 
 // show next fieldset//
-next_fs.show();
+previous_fs.show();
  //next fieldset will be hide //
       current_fs.animate({opacity:0}, {
             step:function(now,mx){
