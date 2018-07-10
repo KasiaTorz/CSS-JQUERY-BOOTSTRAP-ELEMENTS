@@ -64,7 +64,7 @@ previous_fs.show();
       current_fs.animate({opacity:0}, {
             step:function(now,mx){
                   // scale current_fs from the right//
-                  scale=1-(1-now)*0.2;
+                  scale=0.8+(1-now)*0.2;
                   // bring next_fs form right//
                   left= (now*50)+"%";
                   //increase opacity to next_fs //
