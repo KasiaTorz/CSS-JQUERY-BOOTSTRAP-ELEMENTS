@@ -56,7 +56,7 @@ $(".prvious").click(function(){
       current_fs= $(this).parent();
       previous_fs= $(this).parent().prev();
 //de-active next step in progressbar using button next//
-$("#progressbar li- form active").eq($("#form fieldset").index(next_fs)).addClass("active");
+$("#progressbar li ").eq($("fieldset").index(current_fs)).removeClass("active");
 
 // show next fieldset//
 next_fs.show();
