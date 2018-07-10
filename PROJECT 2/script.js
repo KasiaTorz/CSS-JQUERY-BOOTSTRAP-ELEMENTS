@@ -29,4 +29,11 @@ $(".action-next").click(function(){
       next_fs= $(this).parent().next();
 //active next step in progressbar using button next//
 $("#progressbar li- form active").eq($("#form fieldset").index(next_fs)).addClass("active");
+
+// show next fieldset//
+next_fs.show();
+//next fieldset will be hide //
+current_fs.animate({opacity:0}, {
+      
+})
 })
