@@ -39,7 +39,16 @@ current_fs.animate({opacity:0}, {
             scale=1-(1-now)*0.2;
             // bring next_fs form right//
             left= (now*50)+"%";
-            // //
-      }
+            //increase opacity to next_fs //
+            opacity= 1-now;
+            current_fs.css({'transform':'scale(+scale+)'});
+            next_fs.css({'left':left, 'opacity':opacity});
+      },
+      duration:800,
+      complete:function(){
+            current_fs.hide();
+      },
+
+
 })
 })
