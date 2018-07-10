@@ -34,6 +34,9 @@ $("#progressbar li- form active").eq($("#form fieldset").index(next_fs)).addClas
 next_fs.show();
 //next fieldset will be hide //
 current_fs.animate({opacity:0}, {
-      
+      step:function(now,mx){
+            // scale current_fs from the right//
+            scale=1-(1-now)*0.2;
+      }
 })
 })
