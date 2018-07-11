@@ -171,7 +171,9 @@ box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
 /* previous button*/
 #form .action-previous{
     width: 80px;
-    
+    background:#cd4545;
+    font-weight: bolder;
+    border-color: #cd4545;
 }
 label{
 text-align: left;
