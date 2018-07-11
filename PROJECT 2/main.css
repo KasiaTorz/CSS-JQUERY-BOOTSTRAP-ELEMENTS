@@ -181,6 +181,9 @@ box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
     margin-right: 110px;
     color:wheat;
 }
+#form .action-previous:hover, #form .action-previous:focus{
+    box-shadow: 0 0 0 2px white, 0 0 0 2px;
+    }
 label{
 text-align: left;
 font-weight: 400;
