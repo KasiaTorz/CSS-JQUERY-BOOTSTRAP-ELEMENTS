@@ -28,7 +28,7 @@ $(".action-next").click(function(){
       current_fs= $(this).parent();
       next_fs= $(this).parent().next();
 //active next step in progressbar using button next//
-$("#progressbar li- form active").eq($("#form fieldset").index(next_fs)).addClass("active");
+$("#progressbar li- form active").eq($("fieldset").index(next_fs)).addClass("active");
 
 // show next fieldset//
 next_fs.show();
@@ -52,25 +52,25 @@ next_fs.show();
       });
 
 });
-$(".previous").click(function(){
+$(".action-previous").click(function(){
       current_fs= $(this).parent();
       previous_fs= $(this).parent().prev();
 //de-active next step in progressbar using button next//
-$("#progressbar li ").eq($("fieldset").index(current_fs)).removeClass("active");
+$("#progressbar li-form ").eq($("fieldset").index(current_fs)).removeClass("active");
 
 // show next fieldset//
 previous_fs.show();
  //next fieldset will be hide //
       current_fs.animate({opacity:0}, {
             step:function(now,mx){
-                  // scale current_fs from the right//
+                  // scale previous_fs from the form//
                   scale=0.8+(1-now)*0.2;
-                  // bring next_fs form right//
-                  left= (now*50)+"%";
+                  // bring previous_fs form left//
+                  left= ((1-now)*50)+"%";
                   //increase opacity to next_fs //
                   opacity= 1-now;
-                  current_fs.css({'transform':'scale(+scale+)'});
-                  next_fs.css({'left':left, 'opacity':opacity});
+                  current_fs.css({'left':left});
+                  previous_fs.css({'left':left, 'opacity':opacity});
             },
             duration:800,
             complete:function(){
