@@ -168,6 +168,8 @@ color: wheat;
 #form .action-next:hover, #form .action-next:focus{
 box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
 }
+/**/
+action-next-first
 /* previous button*/
 #form .action-previous{
     width: 80px;
