@@ -22,7 +22,7 @@ var previous_fs;
 
 var left;
 var opacity;
-var scale; // fieldsets poroperties which will animate//
+var scale; // fieldsets properties which will be animate//
 
 $(".action-next").click(function(){
       current_fs= $(this).parent();
