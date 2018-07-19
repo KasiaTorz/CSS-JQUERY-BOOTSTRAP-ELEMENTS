@@ -201,6 +201,18 @@ box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
 #form .action-previous:hover, #form .action-previous:focus{
     box-shadow: 0 0 0 2px white, 0 0 0 2px #cd4545 ;
     }
+    #form .action-previous-last{
+        width: 80px;
+        background:#cd4545;
+        font-weight: bolder;
+        border-color: #cd4545;
+        border-radius: 2px;
+        cursor: pointer;
+        padding:10px 5px;
+        margin-left: 39px;
+        margin-right: 110px;
+        color:wheat;   
+    }
 label{
 text-align: left;
 font-weight: 400;
