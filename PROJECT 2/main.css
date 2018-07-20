@@ -224,6 +224,8 @@ box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
      border-radius: 2px;
      cursor: pointer;
      padding: 10px 39px;
+     margin-left: -2px;
+     margin-right: 13px;
      
  }               
 label{
