@@ -223,6 +223,8 @@ box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
      border-color: yellow;
      border-radius: 2px;
      cursor: pointer;
+     padding: 10px 39px;
+     
  }               
 label{
 text-align: left;
