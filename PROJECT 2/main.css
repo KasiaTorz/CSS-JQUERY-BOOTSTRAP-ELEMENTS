@@ -218,14 +218,15 @@ box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
         }
  #form .action-submit{
      width: 147px;
-     background: yellow;
+     background: #c9a628;
      font-weight: bolder;
-     border-color: yellow;
+     border-color: #c9a628;
      border-radius: 2px;
      cursor: pointer;
      padding: 10px 39px;
      margin-left: -2px;
      margin-right: 13px;
+     color: wheat;
      
  }               
 label{
