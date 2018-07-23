@@ -20,8 +20,8 @@ var current_fs; //fieldsets//
 var next_fs;
 var previous_fs;
 
-var left;
-var opacity;
+var left;// fieldsets properties which will be animate//
+var opacity;// fieldsets properties which will be animate//
 var scale; // fieldsets properties which will be animate//
 var animating; 
 
