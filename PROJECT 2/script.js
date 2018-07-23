@@ -23,7 +23,7 @@ var previous_fs;
 var left;// fieldsets properties which will be animate//
 var opacity;// fieldsets properties which will be animate//
 var scale; // fieldsets properties which will be animate//
-var animating; 
+var animating; //variable which will  prevent from quick multi-click glitches//
 
 $(".action-next").click(function(){
       current_fs= $(this).parent();
