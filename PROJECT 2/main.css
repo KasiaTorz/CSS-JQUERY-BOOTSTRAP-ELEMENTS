@@ -308,7 +308,7 @@ margin-top: -26px;
     color:white;
 }
 #progressbar li:first-child:after{
-    /*connector is not before first step of registration*/
+    /*connector is not needed before first step of registration*/
     content: none;
 }
 
