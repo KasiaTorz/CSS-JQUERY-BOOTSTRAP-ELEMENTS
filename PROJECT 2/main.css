@@ -230,7 +230,7 @@ box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
      
  }    
 #form.action-submit:hover{
-    
+    box-shadow:0 0 0 2px white, 0 0 0 2px #cd4545;
 }            
 label{
 text-align: left;
