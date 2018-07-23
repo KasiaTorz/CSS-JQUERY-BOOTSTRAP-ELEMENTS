@@ -229,7 +229,7 @@ box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
      color: wheat;
      
  }    
-#form.action-submit:hover{
+#form.action-submit:hover, #form .action-submit:focus{
     box-shadow:0 0 0 2px white, 0 0 0 2px #cd4545;
 }            
 label{
