@@ -25,7 +25,7 @@ var opacity;// fieldsets properties which will be animate//
 var scale; // fieldsets properties which will be animate//
 var animating; //variable which will  prevent from quick multi-click glitches//
 
-$(".action-next").click(function(){
+$(".next").click(function(){
       if(animating) return false;
       animating = true;
       current_fs= $(this).parent();
@@ -59,7 +59,7 @@ next_fs.show();
       });
 
 });
-$(".action-next-first").click(function(){
+/*$(".action-next-first").click(function(){
       current_fs= $(this).parent();
       next_fs= $(this).parent().next();
 //active next step in progressbar using button next//
@@ -90,8 +90,8 @@ next_fs.show();
             easing:'easeInOutBack'
       });
 
-});
-$(".action-previous").click(function(){
+});*/
+$(".previous").click(function(){
       if(animating) return false;
       animating = true;
 
