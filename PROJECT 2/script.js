@@ -26,6 +26,8 @@ var scale; // fieldsets properties which will be animate//
 var animating; //variable which will  prevent from quick multi-click glitches//
 
 $(".action-next").click(function(){
+      if(animating) return false;
+      animating = true;
       current_fs= $(this).parent();
       next_fs= $(this).parent().next();
 //active next step in progressbar using button next//
@@ -44,13 +46,14 @@ next_fs.show();
                   opacity= 1- now;
                   current_fs.css({
                         'transform':'scale('+scale+')',
-                        
+                        'position':'absolute'
             });
                   next_fs.css({'left':left, 'opacity':opacity});
             },
             duration:800,
             complete:function(){
                   current_fs.hide();
+                  animating = false;
             },
             easing:'easeInOutBack'
       });
