@@ -92,6 +92,8 @@ next_fs.show();
 
 });
 $(".action-previous").click(function(){
+      if(animating) return false;
+      animating = true;
       current_fs= $(this).parent();
       previous_fs= $(this).parent().prev();
 //de-active next step in progressbar using button next//
