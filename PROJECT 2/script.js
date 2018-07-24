@@ -41,8 +41,11 @@ next_fs.show();
                   // bring next_fs form right//
                   left= (now*50)+"%";
                   //increase opacity to next_fs //
-                  opacity= 1-now;
-                  current_fs.css({'transform':'scale(+scale+)'});
+                  opacity= 1- now;
+                  current_fs.css({
+                        'transform':'scale('+scale+')',
+                        
+            });
                   next_fs.css({'left':left, 'opacity':opacity});
             },
             duration:800,
