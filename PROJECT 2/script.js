@@ -94,10 +94,12 @@ next_fs.show();
 $(".action-previous").click(function(){
       if(animating) return false;
       animating = true;
+
       current_fs= $(this).parent();
       previous_fs= $(this).parent().prev();
+
 //de-active next step in progressbar using button next//
-$("#progressbar li-form ").eq($("fieldset").index(current_fs)).removeClass("active");
+$("#progressbar li-form").eq($("fieldset").index(current_fs)).removeClass("active");
 
 // show next fieldset//
 previous_fs.show();
@@ -105,19 +107,56 @@ previous_fs.show();
       current_fs.animate({opacity:0}, {
             step:function(now,mx){
                   // scale previous_fs from the form//
-                  scale=0.8+(1-now)*0.2;
+                  scale=0.8 + (1-now) *0.2;
                   // bring previous_fs form left//
                   left= ((1-now)*50)+"%";
                   //increase opacity to next_fs //
                   opacity= 1-now;
                   current_fs.css({'left':left});
-                  previous_fs.css({'left':left, 'opacity':opacity});
+                  previous_fs.css({'transform': 'scale('+scale+')', 'opacity':opacity});
             },
             duration:800,
             complete:function(){
                   current_fs.hide();
+                  animating = false;
             },
             easing:'easeInOutBack'
       });
 
 });
+$(".action-previous-last").click(function(){
+      if(animating) return false;
+      animating = true;
+
+      current_fs= $(this).parent();
+      previous_fs= $(this).parent().prev();
+
+//de-active next step in progressbar using button next//
+$("#progressbar li-form").eq($("fieldset").index(current_fs)).removeClass("active");
+
+// show next fieldset//
+previous_fs.show();
+ //next fieldset will be hide //
+      current_fs.animate({opacity:0}, {
+            step:function(now, mx){
+                  // scale previous_fs from the form//
+                  scale=0.8 + (1-now) *0.2;
+                  // bring previous_fs form left//
+                  left= ((1-now)*50)+"%";
+                  //increase opacity to next_fs //
+                  opacity= 1-now;
+                  current_fs.css({'left':left});
+                  previous_fs.css({'transform': 'scale('+scale+')', 'opacity':opacity});
+            },
+            duration:800,
+            complete:function(){
+                  current_fs.hide();
+                  animating = false;
+            },
+            easing:'easeInOutBack'
+      });
+
+});
+$(".action-submit").click(function(){
+      return false;
+})
