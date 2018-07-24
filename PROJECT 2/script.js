@@ -84,7 +84,9 @@ next_fs.show();
             duration:800,
             complete:function(){
                   current_fs.hide();
+                  animating = false;
             },
+            //this is plugin//
             easing:'easeInOutBack'
       });
 
