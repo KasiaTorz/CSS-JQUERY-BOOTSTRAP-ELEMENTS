@@ -124,7 +124,7 @@ previous_fs.show();
       });
 
 });
-$(".action-previous-last").click(function(){
+/*$(".action-previous-last").click(function(){
       if(animating) return false;
       animating = true;
 
@@ -156,7 +156,7 @@ previous_fs.show();
             easing:'easeInOutBack'
       });
 
-});
+});*/
 $(".action-submit").click(function(){
       return false;
 })
