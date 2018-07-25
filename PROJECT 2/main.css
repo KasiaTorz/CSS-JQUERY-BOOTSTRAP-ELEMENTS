@@ -272,7 +272,16 @@ margin-top: -26px;
     /*CSS counters to number the steps*/
     counter-reset: step;
 }
-.li-form{
+ul#progressbar{
+    list-style: none;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    position: absolute;
+    top: -105px;
+    left: 60px;
+}
+#progressbar li{
     list-style-type: none;
 	color: white;
 	text-transform: uppercase;
@@ -304,14 +313,13 @@ margin-top: -26px;
 	top: 9px;
 	z-index: -1; /*put it behind the numbers*/
 }
-/* green step-line after*/
-#progressbar .li-form.active::before, #progressbar .li-form.active::after{
-    background: #27AE60;
-    color:white;
+#progressbar li.active:before,  #progressbar li.active:after{
+	background: #27AE60;
+	color: white;
 }
 #progressbar li:first-child:after{
-    /*connector is not needed before first step of registration*/
-    content: none;
+  	/*connector not needed before the first step*/
+	content: none; 
 }
 
 /* making completed steps green*/
