@@ -132,10 +132,11 @@ cursor: pointer;
     border-radius: 5px;
     padding: 20px 30px;
     box-sizing: border-box;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
     width: 100%;
     margin:0 10% 0 -6%;
     /* make fieldset above each other*/
-    position: absolute;
+    position: relative;
 }
 
 /*hide all expect filedset*/
@@ -153,19 +154,19 @@ display: none;
     color:#3c3a3a;
     font-size: 13px;
 }
-/*next-button*/
-#form .action-next{
-width: 80px;
-background: #27AE60;
-font-weight: bolder;
-border-color: #27AE60;
-border-radius: 2px;
-cursor: pointer;
-padding: 10px 5px;
-margin: 10px 5px;
-color: wheat;
+/*button*/
+#form .action-button{
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
 }
-#form .action-next:hover, #form .action-next:focus{
+#form .action-button:hover, #form .action-button:focus{
 box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
 }
 /*first next-button in fieldset*/
