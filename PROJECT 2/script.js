@@ -30,4 +30,9 @@ $(".next").click(function(){
       animating = true;
       current_fs = $(this).parent();
       next_fs = $(this).parent().next(); 
+
+      //*define role of next step to move next fieldset*//
+      $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+      next_fs.show();
 })
