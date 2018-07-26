@@ -43,6 +43,12 @@ $(".next").click(function(){
                   left = (now * 50)+ "%";
 
                   opacity= 1 -now;
+
+                  current_fs.css({
+                        'transform':'scale('+scale+')',
+                        'position': 'absolute'
+                  });
+                  
             }
       }
       )
