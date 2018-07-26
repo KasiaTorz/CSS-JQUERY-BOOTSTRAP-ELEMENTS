@@ -39,6 +39,10 @@ $(".next").click(function(){
       current_fs.animate({ opacity: 0},{
             step: function(now, mx){
                   scale= 1 - (1-now) * 0.2;
+
+                  left = (now * 50)+ "%";
+
+                  opacity= 1 -now;
             }
       }
       )
