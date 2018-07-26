@@ -35,4 +35,11 @@ $(".next").click(function(){
       $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
 
       next_fs.show();
+
+      current_fs.animate({ opacity: 0},{
+            step: function(now, mx){
+                  scale= 1 - (1-now) * 0.2;
+            }
+      }
+      )
 })
