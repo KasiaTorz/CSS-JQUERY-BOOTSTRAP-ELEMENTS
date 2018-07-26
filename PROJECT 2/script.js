@@ -28,4 +28,6 @@ var animating; //variable which will  prevent from quick multi-click glitches//
 $(".next").click(function(){
       if (animating)return false;
       animating = true;
+      current_fs = $(this).parent();
+      next_fs = $(this).parent().next(); 
 })
