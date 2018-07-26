@@ -141,7 +141,7 @@ cursor: pointer;
 
 /*hide all expect filedset*/
 #form fieldset:not(:first-of-type){
-display: none;
+display: block;
 }
 #form input, textarea{
     padding: 10px;
@@ -169,73 +169,7 @@ display: none;
 #form .action-button:hover, #form .action-button:focus{
 box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
 }
-/*first next-button in fieldset*/
-#form .action-next-first{
-    width: 80px;
-	background: #27AE60;
-    font-weight: bolder;
-    border-color: #27AE60;
-	color: wheat;
-	border: 0 none;
-	border-radius: 2px;
-	cursor: pointer;
-	padding: 10px 5px;
-    margin: 10px 5 px;
-}
-#form .action-next-first:hover, #form .action-next-first:focus{
-    box-shadow: 0 0 0 2px white, 0 0 0 2px #27AE60;
-    }
-
-/* previous button*/
-#form .action-previous{
-    width: 80px;
-    background:#cd4545;
-    font-weight: bolder;
-    border-color: #cd4545;
-    border-radius: 2px;
-    cursor: pointer;
-    padding:10px 5px;
-    margin-left: 39px;
-    margin-right: 110px;
-    color:wheat;
-}
-#form .action-previous:hover, #form .action-previous:focus{
-    box-shadow: 0 0 0 2px white, 0 0 0 2px #cd4545 ;
-    }
-#form .action-previous-last{
-        width: 80px;
-        background:#cd4545;
-        font-weight: bolder;
-        border-color: #cd4545;
-        border-radius: 2px;
-        cursor: pointer;
-        padding:10px 5px;
-        margin-left: 3px;
-        margin-right: 110px;
-        color:wheat;   
-    }
- #form .action-previous-last:hover, #form .action-previous-last:focus{
-        box-shadow: 0 0 0 2px white, 0 0 0 2px #cd4545 ;
-        }
- #form .action-submit{
-     width: 147px;
-     background: #c9a628;
-     font-weight: bolder;
-     border-color: #c9a628;
-     border-radius: 2px;
-     cursor: pointer;
-     padding: 10px 39px;
-     margin-left: -2px;
-     margin-right: 13px;
-     color: wheat;
-     
- }    
- #form .action-submit:hover{
-    box-shadow: 0 0 0 2px white, 0 0 0 3px #c9a628;
- } 
- #form .action-submit:focus {
-	box-shadow: 0 0 0 2px white, 0 0 0 3px #c9a628;
-}         
+       
 label{
 text-align: left;
 font-weight: 400;
