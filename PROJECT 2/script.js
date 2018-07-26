@@ -48,7 +48,7 @@ $(".next").click(function(){
                         'transform':'scale('+scale+')',
                         'position': 'absolute'
                   });
-                  
+            next_fs.css({ 'left': left, 'opacitty': opacity});   
             }
       }
       )
