@@ -25,3 +25,7 @@ var opacity;// fieldsets properties which will be animate//
 var scale; // fieldsets properties which will be animate//
 var animating; //variable which will  prevent from quick multi-click glitches//
 
+$(".next").click(function(){
+      if (animating)return false;
+      animating = true;
+})
