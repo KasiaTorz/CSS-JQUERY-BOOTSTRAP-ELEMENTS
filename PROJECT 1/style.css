@@ -19,8 +19,24 @@ body{
     float: left;
     text-indent:-9999px;
     margin: 5px;
+    cursor: pointer;
+}
+#red{
+    background-color:#E81123;
+}
+#blue{
+    background-color:#0063B1;
+}
+#green{
+    background-color:#107C10;
+}
+#gray{
+    background-color:#4C4A48;
 }
 
+#yellow{
+   background-color:#FFB900;
+}
 .circle{
     width:40vh;
     height: 40vh;
