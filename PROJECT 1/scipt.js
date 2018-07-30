@@ -5,8 +5,8 @@ document.body.style.background= "red";
 function changeColorBlue(newColor){
     document.body.style.background= "blue";
 }
-function changeColorGreen(newColor){
-    document.body.style.background= "gren";
+function changeColorPink(newColor){
+    document.body.style.background= "pink";
 }
 function changeColorGray(newColor){
     document.body.style.background= "gray";
