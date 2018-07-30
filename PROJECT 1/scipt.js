@@ -16,3 +16,10 @@ function changeColorYellow(newColor){
 }
 
 var i= 0, typetext;
+typetext= "MY PORTFOLIO"
+
+function typing(){
+    if(i<typetext.length){
+        document.getElementById("typetext").innerHTML += typetext.charAt(i);
+    }
+}
