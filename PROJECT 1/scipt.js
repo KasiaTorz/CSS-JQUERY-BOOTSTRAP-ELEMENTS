@@ -21,5 +21,7 @@ typetext= "MY PORTFOLIO"
 function typing(){
     if(i<typetext.length){
         document.getElementById("typetext").innerHTML += typetext.charAt(i);
+        i++;
+        setTimeout(typing,50);
     }
 }
