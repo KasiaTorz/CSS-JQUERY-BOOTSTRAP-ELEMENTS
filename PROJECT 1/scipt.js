@@ -15,12 +15,12 @@ function changeColorYellow(newColor){
     document.body.style.background= "yellow";
 }
 
-var i= 0, typetext;
-typetext= "MY PORTFOLIO"
+var i= 0, text;
+text= "MY PORTFOLIO"
 
 function typing(){
-    if(i<typetext.length){
-        document.getElementById("typetext").innerHTML += typetext.charAt(i);
+    if(i<text.length){
+        document.getElementById("text").innerHTML += text.charAt(i);
         i++;
         setTimeout(typing,50);
     }
