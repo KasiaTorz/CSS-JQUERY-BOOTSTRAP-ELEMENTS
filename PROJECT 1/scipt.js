@@ -14,3 +14,5 @@ function changeColorGray(newColor){
 function changeColorYellow(newColor){
     document.body.style.background= "yellow";
 }
+
+var i= 0, typetext;
