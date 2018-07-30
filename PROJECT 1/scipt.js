@@ -25,3 +25,4 @@ function typing(){
         setTimeout(typing,50);
     }
 }
+typing();
