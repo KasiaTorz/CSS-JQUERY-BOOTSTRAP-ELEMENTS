@@ -185,4 +185,11 @@ h1{
     width: 100px;
     height: 100px;
     background-color: #32cdab;
+    font-size: 100px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 41.6%;
 }
