@@ -158,3 +158,9 @@ h1{
         font-size: 50px;
         text-align: center;
 }
+/*Minion div*/
+#boxM{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+}
