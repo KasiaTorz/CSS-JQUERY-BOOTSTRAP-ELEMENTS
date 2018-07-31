@@ -174,3 +174,10 @@ h1{
 #boxM:hover{
     cursor: wait;
 }
+#boxM #Minion{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
