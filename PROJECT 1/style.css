@@ -194,7 +194,12 @@ h1{
 }
 /* button hover*/
 #hoverBackground{
-    
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(90deg,#E2FF86,#8FFF87);
+    border: 2px solid gray;
 }
 #btn-hover{
     height: 50px;
