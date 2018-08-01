@@ -26,3 +26,23 @@ function typing(){
     }
 }
 typing();
+
+/*Minion*/
+var eyesMiniom= document.getElementById("eye");
+if(eyesMiniom.length > 0){
+    var offset = eyesMiniom.offset(); 
+    
+    function move(e){
+        var center_X = (offset.left + 5) + (eyesMiniom.width() / 2);
+        var center_Y = (offset.top) + (eyesMiniom.height() / 2);
+        var mouse_X = e.pageX;
+        var mouse_Y = e.pageY;
+        
+        var radius = Math.atan2(mouse_X - center_X, mouse_Y - center_Y);
+        var degree = (radius * (180 / Math.PI) * -1);
+        
+        eyesMiniom.css('transform','rotate('+degree+'deg)');        
+    }
+    
+    $("#boxM").mousemove(move);
+}
