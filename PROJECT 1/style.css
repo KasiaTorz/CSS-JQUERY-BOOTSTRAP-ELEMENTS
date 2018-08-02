@@ -209,7 +209,7 @@ h1{
     border: 2px solid grey;
     font-family: Arial, Helvetica,sans-serif;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 14px;
     color:#5E6ED4E6;
     margin-left:20px;
     margin-top:20px;
@@ -224,4 +224,9 @@ h1{
     /*overflow: hidden;*/
     z-index: 99;
     cursor: pointer;
+}
+#fillIn{
+    height: 20px;
+    width: 20px;
+    background-color: #A8C0FF;
 }
