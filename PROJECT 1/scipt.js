@@ -46,3 +46,6 @@ if(eyesMiniom.length > 0){
     
     $("#boxM").mousemove(move);
 }
+/*hover mouse on button */
+$(document).ready(function()
+});
