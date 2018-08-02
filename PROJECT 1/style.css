@@ -218,4 +218,6 @@ h1{
     position: absolute;
     transform: translate(-9%,-10%);
     overflow: hidden;
+    z-index: 99;
+    cursor: pointer;
 }
