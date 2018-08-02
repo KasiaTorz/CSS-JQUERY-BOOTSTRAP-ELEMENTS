@@ -203,8 +203,8 @@ h1{
     border: 2px solid gray;
 }
 #btn-hover{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border: 2px solid grey;
     font-family: Arial, Helvetica,sans-serif;
     color: #4C4A48;
@@ -212,4 +212,7 @@ h1{
     margin-top:20px;
     margin-bottom:20px;
     border-radius:30%;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50px;
 }
