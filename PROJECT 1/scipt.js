@@ -49,4 +49,11 @@ if(eyesMiniom.length > 0){
 /*hover mouse on button */
 $(document).ready(function(){
  offset= $("#btn-hover").offset();
+ $("#btn-hover").on("mouseenter",function(e){
+  mouse_X= e.pageX;
+  mouse_Y= e.pageY;
+
+  relMouseX= mouseX- offset.left;
+  relMouseY= mouseY- offset.top;
+ });
 });
