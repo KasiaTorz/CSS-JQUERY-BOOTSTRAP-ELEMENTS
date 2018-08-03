@@ -55,5 +55,9 @@ $(document).ready(function(){
 
   relMouseX= mouseX- offset.left;
   relMouseY= mouseY- offset.top;
+   $("#fillIn").css({
+       left:relMouseX,
+       top:relMouseY
+   });
  });
 });
