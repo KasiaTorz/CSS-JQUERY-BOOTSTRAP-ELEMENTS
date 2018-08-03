@@ -66,5 +66,11 @@ $(document).mousemove(function(e){
     mouseY= e.pageY;});
 $(document).ready(function(){
  offset= $("btn-hover").offset;
+});
+$(document).mousemove(function(e){
+mouseX= e.pageX;
+mouseY= e.pageY;
 
+relMouseX= mouseX - offset.left;
+relMouseY= mouseY - offset.top;
 });
