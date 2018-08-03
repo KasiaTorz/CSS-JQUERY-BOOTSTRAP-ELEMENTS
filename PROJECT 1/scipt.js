@@ -64,3 +64,7 @@ if(eyesMiniom.length > 0){
 $(document).mousemove(function(e){
     mouseX= e.pageX;
     mouseY= e.pageY;});
+$(document).ready(function(){
+ offset= $("btn-hover").offset;
+
+});
