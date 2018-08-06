@@ -82,3 +82,14 @@ function animateFollower(){
     $("#fillIn").css('left', ("relMouseX"));
     $("#fillIn").css('top', ("relMouseY"));
 };
+/*fadeIn*/
+$('#FadeIn').click(function(){
+$('#btnFirst:hidden:first').fadeIn("slow");
+});
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").fadeIn();
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn(3000);
+    });
+});

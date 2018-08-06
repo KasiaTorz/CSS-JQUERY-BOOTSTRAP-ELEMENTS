@@ -193,14 +193,17 @@ h1{
     left: 41.6%;
 }
 /* button hover*/
-#hoverBackground{
-    width: 100px;
-    height: 100px;
-    margin-left: 200px;
-    margin-bottom: 50px;
-    padding: 0px;
-    background: linear-gradient(90deg,#E2FF86,#8FFF87);
-    border: 2px solid gray;
+#FadeIn{
+    width: 605;
+    height: 500px;
+    border: 2px solid aliceblue;
+    margin-left: 10px;
+}
+p{
+    margin-left:50px;
+    margin-top:80px;
+    margin-bottom:50px;
+    font-size: 15px;
 }
 #btnFirst{
     background: linear-gradient(90deg,#E2FF86,#8FFF87);
