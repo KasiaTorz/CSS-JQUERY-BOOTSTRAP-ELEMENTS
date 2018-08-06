@@ -226,7 +226,7 @@ h1{
     cursor: pointer;
 }
 #btnSecound{
-    background: linear-gradient(90deg,#E2FF86,#8FFF87);
+    background: linear-gradient(90deg,#4FC3F7,#4CAF50);
     height: 54px;
     width: 120px;
     border: 2px solid grey;
