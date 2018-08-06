@@ -68,9 +68,17 @@ $(document).ready(function(){
  offset= $("btn-hover").offset;
 });
 $(document).mousemove(function(e){
-mouseX= e.pageX;
-mouseY= e.pageY;
+ mouseX= e.pageX;
+ mouseY= e.pageY;
 
-relMouseX= mouseX - offset.left;
-relMouseY= mouseY - offset.top;
+var relMouseX= mouseX - offset.left;
+var relMouseY= mouseY - offset.top;
 });
+frameRate= 30;
+timeInterval= Math.round(1000/frameRate);
+atimer= setInterval("animateFollower()",timeInterval);
+
+function animateFollower(){
+    $("#fillIn").css('left', ("relMouseX"));
+    $("#fillIn").css('top', ("relMouseY"));
+};
