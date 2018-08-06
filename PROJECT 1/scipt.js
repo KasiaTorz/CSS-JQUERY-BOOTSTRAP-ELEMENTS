@@ -93,3 +93,10 @@ $(document).ready(function(){
         $("#div3").fadeIn(3000);
     });
 });
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#btnFirst").fadeIn();
+        $("#btnSecound").fadeIn("slow");
+        $("#btnThird").fadeIn(2000);
+    })
+});
