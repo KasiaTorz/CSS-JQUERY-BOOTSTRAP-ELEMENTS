@@ -92,3 +92,6 @@ $(document).ready(function(){
         $("#btnThird").fadeIn(3000);
     })
 });
+$(document).ready(function(){
+
+});
