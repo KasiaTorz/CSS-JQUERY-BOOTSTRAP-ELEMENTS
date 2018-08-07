@@ -93,7 +93,9 @@ $(document).ready(function(){
     })
 });
 $(document).ready(function(){
- $("button").click(function){
-    
- }
+    $("button").click(function(){
+        $("#btnFirst").fadeToggle();
+        $("#btnSecound").fadeToggle("slow");
+        $("#btnThird").fadeToggle(3000);
+    });
 });
