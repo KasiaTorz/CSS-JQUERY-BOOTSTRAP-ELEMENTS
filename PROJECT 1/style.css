@@ -277,6 +277,12 @@ p{
     z-index: 99;
     cursor: pointer;
 }
+#rodzic{
+    border: 2px dashed green;
+    height: 605px;
+    width: 610px;
+    background: lightcoral;
+}
 #FadeIn{
     background: yellow;
     border: 2px dashed gray;
@@ -287,5 +293,5 @@ p{
     background-color: aqua;
     border: 2px dashed gray;
     width: 605px;
-    height: 290px;
+    height: 300px;
 }
