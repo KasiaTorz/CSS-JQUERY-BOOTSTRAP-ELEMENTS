@@ -297,3 +297,15 @@ p{
     float: left;
     margin-top: 282px;
 }
+#btn-toggle{
+background-color:powderblue;
+color: green;
+width: 200px;
+height: 40px;
+margin: 23px auto;
+    margin-left: auto;
+border: none;
+margin-left: 309px;
+align-content: center;
+border-radius: 6%;
+}
