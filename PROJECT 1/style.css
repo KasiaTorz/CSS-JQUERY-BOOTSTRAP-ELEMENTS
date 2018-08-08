@@ -277,9 +277,15 @@ p{
     z-index: 99;
     cursor: pointer;
 }
-#FadeOut{
-        width: 605;
-        height: 290px;
-        border: 2px solid aliceblue;
-        margin-left: 10px;
+#FadeIn{
+    background: yellow;
+    border: 2px dashed gray;
+    height: 300px;
+    width: 605px;
+}
+#Toggle{
+    background-color: aqua;
+    border: 2px dashed gray;
+    width: 605px;
+    height: 290px;
 }
