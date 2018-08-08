@@ -279,19 +279,21 @@ p{
 }
 #rodzic{
     border: 2px dashed green;
-    height: 605px;
-    width: 610px;
+    height: 700px;
     background: lightcoral;
 }
 #FadeIn{
-    background: yellow;
+    background-color: rgb(37, 233, 19);
     border: 2px dashed gray;
     height: 300px;
-    width: 605px;
+    width: 40%;
+    float: left;
 }
 #Toggle{
     background-color: aqua;
     border: 2px dashed gray;
-    width: 605px;
+    width: 50%;
     height: 300px;
+    float: left;
+    margin-top: 282px;
 }
