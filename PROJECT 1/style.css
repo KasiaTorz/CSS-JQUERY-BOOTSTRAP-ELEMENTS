@@ -281,26 +281,27 @@ p{
     border: 2px dashed green;
     height: 564px;
     background: lightcoral;
+    width: 605px;
 }
 #FadeIn{
     background-color: rgb(37, 233, 19);
     border: 3px solid whitesmoke;
     height: 224px;
-    width:605;
+    width:605px;
     float: left;
 }
 #Toggle{
     background-color: aqua;
     border: 2px dashed gray;
-    width: 50%;
+    width:605px;
     height: 300px;
     float: left;
     margin-top: 282px;
 }
 #btn-toggle{
-background-color:powderblue;
+background-color:#f8312a;
 color: green;
-width: 78%;
+width: 38%;
 height: 40px;
 margin: 23px auto;
     margin-left: auto;
