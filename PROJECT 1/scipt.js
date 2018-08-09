@@ -101,6 +101,6 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 $("#btn-toggle").click(function(){
-    $("p").toggle();
+    $("img").toggle();
    });
 });
