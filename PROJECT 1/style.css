@@ -281,7 +281,8 @@ p{
     border: 2px dashed green;
     height: 564px;
     background: lightcoral;
-    width: 605px;
+    width: 900px;
+    margin-left: 20px;
 }
 #FadeIn{
     background-color: rgb(37, 233, 19);
@@ -294,9 +295,9 @@ p{
     background-color: aqua;
     border: 2px dashed gray;
     width:605px;
-    height: 300px;
+    height: 292px;
     float: left;
-    margin-top: 282px;
+    margin-top: 145px;
 }
 #btn-toggle{
 background-color:#f8312a;
