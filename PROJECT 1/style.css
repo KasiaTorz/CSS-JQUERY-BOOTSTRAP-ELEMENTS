@@ -37,6 +37,8 @@ body{
 #yellow{
    background:#FFB900;
 }
+/*CIRCLE*/
+
 .circle{
     width:40vh;
     height: 40vh;
@@ -59,6 +61,7 @@ body{
     background-color: white;
 
 }
+/*button hove heart*/
 #btn-heart{
     width: 200px;
     height: 90px;
@@ -101,6 +104,7 @@ body{
     top:50%;
 }
 
+/*button START*/
 button{
     background-color: blue;
     color: green;
@@ -113,6 +117,32 @@ button{
     border-radius: 6%;
 }
 
+#textTwo{
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:0px;
+    margin-left: 124px;
+    margin-bottom: 145px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: url(images/harperbazzarUK.jpg);
+    background-size: cover;
+    top: 157%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background-size: cover;
+    /*-webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -moz-background-clip: text;*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+/*div LIKE IT*/
 #textLikeIt{
         margin: 565px 12px 12px auto;
         padding: 169px;
