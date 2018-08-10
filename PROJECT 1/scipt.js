@@ -26,7 +26,6 @@ function typing(){
     }
 }
 typing();
-
 /*Minion*/
 var eyesMiniom= document.getElementById("eye");
 if(eyesMiniom.length > 0){
