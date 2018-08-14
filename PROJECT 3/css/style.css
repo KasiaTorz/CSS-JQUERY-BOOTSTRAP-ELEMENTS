@@ -16,3 +16,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+/* grid bootstrap css for example*/
+.col-md-12{
+    color: aqua;
+    background-color: blue;
+}
