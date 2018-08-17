@@ -16,13 +16,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+/*==============================================================================================
+                        HOME 
+==============================================================================================*/
 
-/* grid bootstrap css for example*/
-.col-md-6 col-1{
-    color: aqua;
-    background-color:#e51919;
-}
-.col-md-6 col-2{
-    color: aqua;
-    background-color: blue;
+#home-cover{
+    height: 100%;
+    background-image: url("../img/head.jpg");
 }
