@@ -47,14 +47,16 @@ body{
     padding-left: 562px;
     padding-top: 334px;
 }
-#home-heading h3{
-    color:black;
-    font-size:55px;
-    font: weight 500;
-    margin:20px 0px 20px 0;
-    text-transform: uppercase;
-    
+@media screen and (max-width:800px){
+    #home-heading h3{
+        color:black;
+        font-size:55px;
+        font: weight 500;
+        margin:20px 0px 20px 0;
+        text-transform: uppercase;   
+    }
 }
+
 
 
 
