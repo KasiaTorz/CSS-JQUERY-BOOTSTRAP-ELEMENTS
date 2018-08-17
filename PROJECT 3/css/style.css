@@ -15,6 +15,9 @@ SUNRAY: rgba(236, 183, 89, 1);#ecb759;(SUPPORTED COLOR)
 html,body{
     height: 100%;
 }
+h3{
+    text-transform: uppercase;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -43,6 +46,14 @@ body{
     text-align: center;
     padding-left: 562px;
     padding-top: 334px;
+}
+#home-heading h3{
+    color:black;
+    font-size:55px;
+    font: weight 500;
+    margin:20px 0px 20px 0;
+    text-transform: uppercase;
+    
 }
 
 
