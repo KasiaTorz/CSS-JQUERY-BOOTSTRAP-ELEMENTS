@@ -37,7 +37,13 @@ body{
     height: 100%;
     display: table;
 }
-
+#home-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 562px;
+    padding-top: 334px;
+}
 
 
 
