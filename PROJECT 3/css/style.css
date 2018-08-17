@@ -11,6 +11,7 @@ OLIVINE: rgba(156, 176, 113, 1);#9cb071;(TEXT WITH SPECIAL BACKGROUNDS)
 SUNRAY: rgba(236, 183, 89, 1);#ecb759;(SUPPORTED COLOR)
 
 ===========================================================================================*/
+/*=======GENERAL PROPERTIES==========*/
 html,body{
     height: 100%;
 }
