@@ -34,6 +34,7 @@ body{
     background-size:100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 #home-content{
     width: 100%;
@@ -56,6 +57,17 @@ body{
         text-transform: uppercase;   
     }
 }
+/*==============================================================================================
+                        PARALLAX properties
+==============================================================================================*/
+.bg-parallax{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
 /*==============================================================================================
                     BUTTONS-general properties
 ==============================================================================================*/
