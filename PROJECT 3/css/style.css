@@ -73,7 +73,11 @@ text-transform: uppercase;
 border-color:#fff;
 color:#fff;
 }
-.
+.btn-white:hover, .btn-white:focus{
+background-color: #fff;
+color:#386a8d;
+
+}
 
 
 
