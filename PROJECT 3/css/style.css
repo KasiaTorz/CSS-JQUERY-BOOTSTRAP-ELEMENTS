@@ -57,10 +57,19 @@ body{
     }
 }
 /*==============================================================================================
-                    BUTTONS
+                    BUTTONS-general properties
 ==============================================================================================*/
 
-#home-btn{
+.btn-general{
+border-color:#fff;
+border-width: 2px;
+border-radius:0;
+padding:17px 26px 12px 26px;
+font-size:16px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.btn-white{
 
 }
 
