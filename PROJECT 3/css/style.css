@@ -93,9 +93,15 @@ color:#386a8d;
                     ANIMATE-general properties
 ==============================================================================================*/
 
+#home-cover {
+    -animation-duration: 3s;
+    -animation-delay: 2s;
+  }
 
-
-
+  #home-heading {
+    -animation-duration: .5s;
+    -animation-delay: .5s;
+  }
 
 
 
