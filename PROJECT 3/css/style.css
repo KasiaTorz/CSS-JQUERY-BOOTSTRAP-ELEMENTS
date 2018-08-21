@@ -102,7 +102,10 @@ color:#386a8d;
     -animation-duration: .5s;
     -animation-delay: .5s;
   }
-
+  #home-btn {
+    -animation-duration: .1s;
+    -animation-delay: .1s;
+  }
 
 
 
