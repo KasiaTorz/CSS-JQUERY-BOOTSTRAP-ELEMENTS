@@ -128,3 +128,9 @@ body {
 #content-box{
     padding: 60px 0px 60px 0px; 
 }
+#content-title h3{
+font-size:25px;
+font-weight:700;
+text-align: center;
+margin:0 0 30px 0px;
+}
