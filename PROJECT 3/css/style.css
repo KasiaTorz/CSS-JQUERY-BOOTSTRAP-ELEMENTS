@@ -138,5 +138,5 @@ margin:0 0 30px 0px;
     width: 35px;
     height: 3px;
     background-color: #386a8d;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto;/*tick to make center underline*/
 }
