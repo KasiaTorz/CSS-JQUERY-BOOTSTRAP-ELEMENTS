@@ -134,3 +134,9 @@ font-weight:700;
 text-align: center;
 margin:0 0 30px 0px;
 }
+#content-title-underline{
+    width: 35px;
+    height: 3px;
+    background-color: #386a8d;
+    margin: 0 auto 0 auto;
+}
