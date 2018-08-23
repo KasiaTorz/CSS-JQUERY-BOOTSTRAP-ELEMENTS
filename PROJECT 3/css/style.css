@@ -1,4 +1,3 @@
-
 /*===========================================================================================
 COMMON FEATURES:
 FONTS:Montserrat;
@@ -11,84 +10,100 @@ OLIVINE: rgba(156, 176, 113, 1);#9cb071;(TEXT WITH SPECIAL BACKGROUNDS)
 SUNRAY: rgba(236, 183, 89, 1);#ecb759;(SUPPORTED COLOR)
 
 ===========================================================================================*/
+
 /*=======GENERAL PROPERTIES==========*/
-html,body{
+
+html,
+body {
     height: 100%;
 }
-h3{
+
+h3 {
     text-transform: uppercase;
 }
-body{
+
+body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
 /*==============================================================================================
                         HOME 
 ==============================================================================================*/
-#home{
+
+#home {
     height: 100%;
 }
-#home-cover{
+
+#home-cover {
     height: 100%;
     background-image: url("../img/head-creative.jpg");
-    background-size:100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-#home-content{
+
+#home-content {
     width: 100%;
     height: 100%;
     display: table;
 }
-#home-content-box-inner{
+
+#home-content-box-inner {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
     padding-left: 562px;
     padding-top: 334px;
 }
-@media screen and (max-width:800px){
-    #home-heading h3{
-        color:black;
-        font-size:55px;
+
+@media screen and (max-width:800px) {
+    #home-heading h3 {
+        color: black;
+        font-size: 55px;
         font: weight 500;
-        margin:20px 0px 20px 0;
-        text-transform: uppercase;   
+        margin: 20px 0px 20px 0;
+        text-transform: uppercase;
     }
 }
+
 /*==============================================================================================
                         PARALLAX properties
 ==============================================================================================*/
-.bg-parallax{
+
+.bg-parallax {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
 
-
 /*==============================================================================================
                     BUTTONS-general properties
 ==============================================================================================*/
 
-.btn-general{
-border-color:#fff;
-border-width: 2px;
-border-radius:0;
-padding:17px 26px 12px 26px;
-font-size:16px;
-font-weight: 400;
-text-transform: uppercase;
+.btn-general {
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 17px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-.btn-white{
-border-color:#fff;
-color:#fff;
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
 }
-.btn-white:hover, .btn-white:focus{
-background-color: #fff;
-color:#386a8d;
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #386a8d;
 }
+
 /*==============================================================================================
                     ANIMATE-general properties
 ==============================================================================================*/
@@ -96,26 +111,17 @@ color:#386a8d;
 #home-cover {
     -animation-duration: 3s;
     -animation-delay: 2s;
-  }
+}
 
-  #home-heading {
+#home-heading {
     -animation-duration: .5s;
     -animation-delay: .5s;
-  }
-  #home-btn {
+}
+
+#home-btn {
     -animation-duration: .1s;
     -animation-delay: .1s;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+/*==============================================================================================
+                    ANIMATE-general properties
+==============================================================================================*/
