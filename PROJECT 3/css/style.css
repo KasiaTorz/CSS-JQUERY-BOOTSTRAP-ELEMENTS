@@ -148,10 +148,14 @@ margin:0 0 30px 0px;
     padding:20px 0 20px 0;
     margin-bottom:20px;
     cursor:pointer;
-
-
 }
-
+.service-item-icon i{
+    color: #386a8d;
+    float:left;
+    padding: 20px;
+    margin-right: 25px;
+    
+}
 
 
 
