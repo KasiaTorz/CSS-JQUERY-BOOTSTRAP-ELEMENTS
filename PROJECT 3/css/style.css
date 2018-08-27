@@ -4,7 +4,7 @@ FONTS:Montserrat;
       Roboto
 COLOR PALLETE:
 TEAL BLUE: rgba(56, 106, 141, 1);#386a8d;(BUTTONS,ICONS,LINES,BACKGROUNDS)
-PALE GOLD: rgba(229, 199, 137, 1);#e5c789;(HEADINGS)
+PALE GOLD: rgba(229, 199, 137, 1);#002b60;(HEADINGS)
 LIGHT STEEL BLUE: rgba(0, 81, 143);#00518f;(PARAGRAPHS)
 OLIVINE: rgba(156, 176, 113, 1);#9cb071;(TEXT WITH SPECIAL BACKGROUNDS)
 SUNRAY: rgba(236, 183, 89, 1);#ecb759;(SUPPORTED COLOR)
@@ -20,6 +20,7 @@ body {
 
 h3 {
     text-transform: uppercase;
+    color:#053467;
 }
 
 body {
@@ -29,6 +30,8 @@ body {
 p {
      color: #00518f;
     font-size:15px;
+    font-weight: 300;
+
 }
        
  
@@ -66,7 +69,7 @@ p {
 
 @media screen and (max-width:800px) {
     #home-heading h3 {
-        color: black;
+        color:#002b60;
         font-size: 55px;
         font: weight 500;
         margin: 20px 0px 20px 0;
@@ -133,13 +136,15 @@ p {
 ==============================================================================================*/
 #content-box{
     padding: 60px 0px 60px 0px;
-    margin-left: 25px; 
+    margin-left: 25px;
+    color:#002b60; 
 }
 #content-title h3{
 font-size:25px;
 font-weight:700;
 text-align: center;
 margin:0 0 30px 0px;
+color:#002b60;
 }
 #content-title-underline{
     width: 35px;
@@ -172,6 +177,7 @@ background-color:#386a8d;
     font-size:25px;
     font-weight: 300;
     margin:0 0 15px 0;
+    color:#002b60;
 }
 .service-item-desc p{
     margin:0;
