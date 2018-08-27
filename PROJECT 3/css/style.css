@@ -158,7 +158,7 @@ margin:0 0 30px 0px;
     width:75px;
     text-align: center;
 }
-.service-item:hover i.service-item-icon i{
+.service-item:hover .service-item-icon i{
 color:#fff;
 background-color:#386a8d;
 }
