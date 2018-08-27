@@ -67,11 +67,11 @@ p {
     padding-top: 334px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (min-width:600px) {
     #home-heading h3 {
         color:#002b60;
         font-size: 55px;
-        font: weight 500;
+        font: weight 900;
         margin: 20px 0px 20px 0;
         text-transform: uppercase;
     }
