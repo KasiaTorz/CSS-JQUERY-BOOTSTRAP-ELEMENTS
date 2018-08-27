@@ -167,7 +167,10 @@ background-color:#386a8d;
     font-weight: 300;
     margin:0 0 15px 0;
 }
-
+.service-item-desc p{
+    margin:0;
+    padding-left:15px;/*trick to make margin between p and icon*/ 
+}
 
 
 
