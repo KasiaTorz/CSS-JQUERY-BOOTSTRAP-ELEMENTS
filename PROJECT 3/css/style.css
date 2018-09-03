@@ -188,5 +188,9 @@ background-color:#386a8d;
                     ABOUT section- properties
 ==============================================================================================*/
 
-
+#about-content-box{
+    float: left;
+    height:700px;
+    
+}
 
