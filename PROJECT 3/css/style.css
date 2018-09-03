@@ -207,8 +207,10 @@ display: table;
 }
 #about  #content-title-underline{
     margin:0 0 30px 0;
+    width: 30px;
 
 }
 #about-desc p{
     margin-bottom: 30px;
+    
 }
