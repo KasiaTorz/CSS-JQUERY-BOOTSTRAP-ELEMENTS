@@ -114,15 +114,20 @@ p {
 }
 
 .btn-blue {
-    border-color:#386a8d;
+    border-color:#fff;
+    background-color:#fff;
     color:#386a8d;
     
 }
 
-.btn-blue:hover,
-.btn-blue:focus {
+.btn-blue:hover {
     background-color:#386a8d;
     color:#fff;
+    text-decoration: none;
+}
+.btn-blue:focus{
+    background-color: #386a8d;
+    color: #fff;
 }
 
 /*==============================================================================================
