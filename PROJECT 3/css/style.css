@@ -116,12 +116,13 @@ p {
 .btn-blue {
     border-color:#386a8d;
     color:#386a8d;
+    
 }
 
 .btn-blue:hover,
 .btn-blue:focus {
     background-color:#386a8d;
-    color: #fff;
+    color:#fff;
 }
 
 /*==============================================================================================
