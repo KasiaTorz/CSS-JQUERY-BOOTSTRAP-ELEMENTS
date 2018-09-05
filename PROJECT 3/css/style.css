@@ -95,6 +95,9 @@ p {
     width: 60%;
     height: 700px;
     float: left;
+    background-color: red;
+    border-right: 200px solid #fff;
+    border-top: 700px solid transparent;
 }
 .btn-general {
     border-color: #fff;
