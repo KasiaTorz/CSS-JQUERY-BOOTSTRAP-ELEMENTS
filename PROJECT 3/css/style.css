@@ -91,14 +91,7 @@ p {
 /*==============================================================================================
                     BUTTONS-general properties
 ==============================================================================================*/
-#about-bg-diagonal{
-    width: 60%;
-    height: 700px;
-    float: left;
-    background-color: red;
-    border-right: 200px solid #fff;
-    border-top: 700px solid transparent;
-}
+
 .btn-general {
     border-color: #fff;
     border-width: 2px;
@@ -211,6 +204,19 @@ background-color:#386a8d;
 /*==============================================================================================
                     ABOUT section- properties
 ==============================================================================================*/
+#about-bg-diagonal{
+    width: 60%;
+    height: 700px;
+    float: left;
+    background-image: url("../img/aboutUs.jpg");
+    background-size: 100% 115%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-right: 200px solid #fff;
+    border-top: 700px solid transparent;
+}
+
 
 #about-content-box{
     float: left;
