@@ -249,5 +249,6 @@ display: table;
 ==============================================================================================*/
 /* [] helps  to select all elements in row  which have the same class attribute*/
 .row.no-gutters [class*=col-]{
-
+ padding-left: 0;
+ padding-right: 0;
 }
