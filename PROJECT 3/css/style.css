@@ -247,6 +247,7 @@ display: table;
 /*==============================================================================================
                      PORTFOLIO section- properties
 ==============================================================================================*/
+/* [] helps  to select all elements which have the same class attribute*/
 .row.no-gutters [class*=col-]{
 
 }
