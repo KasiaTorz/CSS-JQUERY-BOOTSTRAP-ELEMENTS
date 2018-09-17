@@ -253,5 +253,5 @@ display: table;
  padding-right: 0;
 }
 .img-wrapper img:hover{
-    
+    transform: scale(1.5);
 }
