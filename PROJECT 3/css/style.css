@@ -252,6 +252,9 @@ display: table;
  padding-left: 0;
  padding-right: 0;
 }
+.img-wrapper{
+    overflow:hidden;
+}
 .img-wrapper img:hover{
     transform: scale(1.5);
 }
