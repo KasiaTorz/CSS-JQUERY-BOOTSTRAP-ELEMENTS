@@ -236,7 +236,7 @@ display: table;
  text-align: left;   
 }
 #about  #content-title-underline{
-    margin:0 0 30px 0;
+    margin:30px auto 27px auto;
     width: 30px;
 
 }
