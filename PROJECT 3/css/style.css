@@ -233,7 +233,7 @@ display: table;
     vertical-align: middle;
 }
 #about #content-title h3{
- text-align: left;   
+ text-align: center;   
 }
 #about  #content-title-underline{
     margin:30px auto 27px auto;
