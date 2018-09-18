@@ -256,7 +256,7 @@ display: table;
     overflow:hidden;
 }
 .img-wrapper img{
-    transition: transform .5s ease;
+    transition: transform .5s ease;   /* pop up effect with smooth zoom in time*/
 }
 .img-wrapper img:hover{
     transform: scale(1.5);
