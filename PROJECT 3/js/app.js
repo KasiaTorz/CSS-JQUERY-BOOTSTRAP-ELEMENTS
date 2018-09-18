@@ -7,6 +7,6 @@ $(function(){
 $(function (){
   $("#work").magnificPopup({
     delegate: 'a',
-    type: 'image'
+    type: 'image'       /*img in our portfolio which, by clicking on it popup will open*/
   });
 });
