@@ -1,7 +1,7 @@
-var $myJQ= jQuery.noConflict();
+/*var $myJQ= jQuery.noConflict();
 $myJQ(document).ready(function(){
     alert();
-});
+});*/
 
 /*-------WOW JS -SERVICE----------*/
 $(function(){
