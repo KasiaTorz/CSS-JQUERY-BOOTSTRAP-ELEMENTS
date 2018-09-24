@@ -8,3 +8,7 @@ $(function(){
     new WOW().init();  /*to scroll and have up service*/
 });
 
+/*------- OWL CAROUSEL JS -TEAM----------*/
+$(function(){
+$("#team-members").owlCarousel();
+});
