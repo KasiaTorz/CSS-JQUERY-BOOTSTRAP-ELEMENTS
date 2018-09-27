@@ -10,5 +10,8 @@ $(function(){
 
 /*------- OWL CAROUSEL JS -TEAM----------*/
 $(function(){
-$("#team-members").owlCarousel();
+$("#team-members").owlCarousel({
+       items:3,
+
+   });
 });
