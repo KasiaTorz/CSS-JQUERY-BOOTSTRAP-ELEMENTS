@@ -12,6 +12,7 @@ $(function(){
 $(function(){
 $("#team-members").owlCarousel({
        items:3,
+       autoplay:true,
 
    });
 });
