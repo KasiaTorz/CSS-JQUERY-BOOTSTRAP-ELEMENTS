@@ -278,3 +278,11 @@ h4 .team-member-name{
     letter-spacing: 1px;
     padding-top: 2px;
 }
+h4.team-member-position{
+  color: #386a8d;
+  font-size:15px;
+  font-weight: 700;
+  font-style:italic;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
