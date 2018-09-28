@@ -270,5 +270,11 @@ display: table;
 }
 .team-member-info{
    padding: 10px 0 30px 0px;
-   
+
+}
+h4 .team-member-name{
+    font-size:22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
 }
