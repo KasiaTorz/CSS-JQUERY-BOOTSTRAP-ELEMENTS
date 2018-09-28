@@ -15,5 +15,6 @@ $("#team-members").owlCarousel({
        autoplay:true,
        smartSpeed:600,
        loop:true,
+       autoplayHoverPause:true,
    });
 });
