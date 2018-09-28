@@ -304,6 +304,9 @@ h4.team-member-position{
     font-size:20px;
 
 }
-.icon-gray i{
+.icon-gray i.fab{
     color:#386a8d;
+}
+.social-icon i.fab:hover{
+    color:#d6d6d6;
 }
