@@ -18,3 +18,13 @@ $("#team-members").owlCarousel({
        autoplayHoverPause:true,
    });
 });
+/*------- OWL CAROUSEL JS -REFERENCE----------*/
+$(function(){
+    $("#team-members").owlCarousel({
+           items:3,
+           autoplay:true,
+           smartSpeed:600,
+           loop:true,
+           autoplayHoverPause:true,
+       });
+    });
