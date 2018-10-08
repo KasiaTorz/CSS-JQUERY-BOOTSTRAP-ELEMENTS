@@ -21,7 +21,7 @@ $("#team-members").owlCarousel({
 /*------- OWL CAROUSEL JS -REFERENCE----------*/
 $(function(){
     $("#customers-reference").owlCarousel({
-           items:3,
+           items:1,
            autoplay:true,
            smartSpeed:600,
            loop:true,
