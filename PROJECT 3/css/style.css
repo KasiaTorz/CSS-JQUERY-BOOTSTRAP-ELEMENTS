@@ -105,6 +105,7 @@ p {
 .btn-white {
     border-color: #fff;
     color: #fff;
+    margin-left: 14px;
 }
 
 .btn-white:hover,
@@ -147,6 +148,7 @@ p {
 #home-btn {
     -animation-duration: .1s;
     -animation-delay: .1s;
+    margin-left: -450px;
 }
 /*==============================================================================================
                     SERVICE section- properties
