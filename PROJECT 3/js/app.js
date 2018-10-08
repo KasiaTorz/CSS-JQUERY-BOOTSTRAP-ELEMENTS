@@ -20,7 +20,7 @@ $("#team-members").owlCarousel({
 });
 /*------- OWL CAROUSEL JS -REFERENCE----------*/
 $(function(){
-    $("#team-members").owlCarousel({
+    $("#customers-reference").owlCarousel({
            items:3,
            autoplay:true,
            smartSpeed:600,
