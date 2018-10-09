@@ -315,3 +315,6 @@ h4.team-member-position{
 /*==============================================================================================
             REFERENCE CLIENT'S- properties
 ==============================================================================================*/
+#reference-cover{
+    background-image: url(../img/REFERENCE/background-reference.jpg);
+}
