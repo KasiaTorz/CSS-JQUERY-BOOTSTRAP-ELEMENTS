@@ -323,3 +323,6 @@ h4.team-member-position{
     background-attachment: fixed;
     margin-top: 550px;
 }
+#reference .content-box{
+    background-color:rgba(158,158,158 ,1);
+}
