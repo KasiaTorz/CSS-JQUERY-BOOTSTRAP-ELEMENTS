@@ -153,6 +153,25 @@ p {
 /*==============================================================================================
                     CONTENT- properties-GENERAL
 ==============================================================================================*/
+#content-box{
+    padding: 60px 0px 60px 0px;
+    margin-left: 25px;
+    color:#002b60; 
+}
+#content-title h3{
+font-size:25px;
+font-weight:700;
+text-align: center;
+margin:0 0 30px 0px;
+color:#002b60;
+}
+#content-title-underline{
+    width: 35px;
+    height: 3px;
+    background-color: #386a8d;
+    margin: 0 auto 15px auto;/*tick to make center underline*/
+}
+
 /*==============================================================================================
                     SERVICE section- properties
 ==============================================================================================*/
