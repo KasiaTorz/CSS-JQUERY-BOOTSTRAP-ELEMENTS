@@ -379,3 +379,7 @@ margin:0 0 30px 0px;
 .reference blockquote::before{
     content: "\201C";
 }
+.reference blockquote::after{
+    content: "\201D";
+}
+
