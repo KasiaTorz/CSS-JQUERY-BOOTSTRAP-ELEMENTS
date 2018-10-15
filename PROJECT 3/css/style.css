@@ -392,14 +392,18 @@ margin:0 0 30px 0px;
 .reference blockquote::before{
     content: "\201C";
     top:0;
-    left: 0;
+    left:0;
 }
 .reference blockquote::after{
     content: "\201D";
     bottom: 0;
     right: 0;
 }
-
+.reference-author p{
+    color: #fff;
+    font-size: 15px;
+    display: block;
+}
 
 
 
