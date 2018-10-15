@@ -404,6 +404,9 @@ margin:0 0 30px 0px;
     font-size: 15px;
     display: block;
 }
+.reference-author p strong{
+    display: block;
+}
 
 
 
