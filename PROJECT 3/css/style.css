@@ -411,11 +411,16 @@ margin:0 0 30px 0px;
 /*==============================================================================================
             PRICE- properties
 ==============================================================================================*/
-.pricing-box{
-   border: 3px solid #ecb759;
-
+.pricing-box {
+   border: 3px solid #00d5e5;
+   padding: 50px 0;
+   margin: 40px 0;
 }
-
+.first-box{
+    border: 3px solid #00d5e5;
+    padding: 94px 0 116px 0;
+    margin: 51px 0 88px 0;  
+}
 
 
 
