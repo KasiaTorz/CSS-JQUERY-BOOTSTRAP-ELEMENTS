@@ -447,10 +447,13 @@ span.pricing-box sub{
     font-weight: normal;
     vertical-align: super;
 }
-span.pricing-value b strong{
-    font-weight: 700;
-    margin-right: 101px;
-    line-height: 0;
+strong .pricing{
+    display: block;
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 50px;
+    text-align: left;
 }
 p.pricing-description{
     margin-bottom: 18px;
