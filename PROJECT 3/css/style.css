@@ -416,14 +416,14 @@ margin:0 0 30px 0px;
    padding: 50px 0;
    margin: 40px 0;
 }
-.first-box{
+/*.first-box{
     border: 3px solid #00d5e5;
     margin-bottom: 26px;
     
     padding-bottom: 66px;
     padding-top: 93px;
     margin-top: 39px;  
-}
+}*/
 h4.pricing-title{
     background-color: #00d5e5;
     color: #fff;
@@ -442,16 +442,22 @@ span .pricing-value{
     line-height: 24px;
     box-sizing: border-box;
 }
+span.pricing-box sub{
+    font-size: 20px;
+    font-weight: normal;
+    vertical-align: super;
+}
 span.pricing-value b strong{
     font-weight: 700;
     margin-right: 101px;
     line-height: 0;
 }
-p.description{
+p.pricing-description{
     margin-bottom: 18px;
     font-size: 14px;
     line-height: 25px;
     padding-right: 20px;
+    text-align: left;
     display: block;
 }
 
