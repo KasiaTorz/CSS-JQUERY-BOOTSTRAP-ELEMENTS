@@ -463,6 +463,17 @@ p.pricing-description{
     padding-right: 20px;
     text-align: left;
     display: block;
+    box-sizing: border-box;
+}
+p.pricing-box-lg{
+    margin-top: 19px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 20px;
+    text-align: left;
+    display: block;
+    box-sizing: border-box;
 }
 
 
