@@ -472,10 +472,23 @@ p.pricing-box-lg{
     display: block;
     box-sizing: border-box;
 }
-h3 .pricing-value sub{
-    font-size:28px;
-    font-weight: 400;
-    vertical-align: super;
+span.limits-pricing{
+    display: block;
+    min-height: 36px;
+    color:#00d5e5;
+    font-size: 14px;
+    line-height:18px;
+    box-sizing: border-box;
+    margin:0 0 0 150px;
+    padding: 0;
+    text-align: left;
 }
+ul.pricing-spec{
+    list-style: none;
+    padding-left:0;
+    margin:20px 0 60px 0;
+
+}
+
 
 
