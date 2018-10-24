@@ -439,23 +439,17 @@ span.pricing-value{
     display: block;
     color:#373737;
     margin-bottom: 3px;
-    font-size: 14px;
+    font-size: 27px;
     font-weight: 400;
     text-align: center;
     box-sizing: border-box;
 }
-span.pricing-box sub{
-    font-size: 20px;
-    font-weight: normal;
-    vertical-align: super;
-}
-strong .pricing{
-    display: block;
-    margin-bottom: 3px;
-    font-size: 14px;
-    font-weight: 400;
-    margin-right: 50px;
-    text-align: left;
+span.price.price-annual{
+    display: inline;
+    margin-right: 3px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
 }
 p.pricing-description{
     margin-bottom: 18px;
