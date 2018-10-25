@@ -476,7 +476,8 @@ p.pricing-box-lg{
     box-sizing: border-box;
 }
 .pricing-box-lg h4.pricing-title{
-    
+    color:#00d5e5;
+    background-color: #fff;
 }
 span.limits-pricing{
     display: block;
