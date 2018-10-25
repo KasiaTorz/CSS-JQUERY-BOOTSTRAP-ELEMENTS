@@ -475,6 +475,9 @@ p.pricing-box-lg{
     display: block;
     box-sizing: border-box;
 }
+.pricing-box-lg h4.pricing-title{
+    
+}
 span.limits-pricing{
     display: block;
     min-height: 36px;
