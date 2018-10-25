@@ -416,6 +416,9 @@ margin:0 0 30px 0px;
    padding: 50px 0;
    margin: 40px 0;
 }
+.pricing-box-lg{
+    background-color: #00d5e5;
+}
 .first-box{
     border: 3px solid #00d5e5;
     margin-bottom: 26px;
@@ -487,7 +490,28 @@ ul.pricing-spec{
     list-style: none;
     padding-left:0;
     margin:20px 0 60px 0;
+}
 
+ul.pricing-spec li strong{
+    box-sizing: border-box;
+    margin-bottom:18px;
+    margin-left:-44px; 
+    padding-right:160px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+ul.pricing-spec li span{
+        font-weight: 400;
+        margin-bottom: 18px;
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 18px;
+        padding-right: 20px;
+        text-align: left;
+        display: block;
+        box-sizing: border-box;
 }
 
 
