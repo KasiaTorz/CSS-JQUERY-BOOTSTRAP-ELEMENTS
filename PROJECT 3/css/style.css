@@ -479,6 +479,10 @@ p.pricing-box-lg{
     color:#00d5e5;
     background-color: #fff;
 }
+.pricing-box-lg ul.pricing-spec span, .pricing-box-lg ul.pricing-spec strong{
+    color: #fff;
+}
+
 span.limits-pricing{
     display: block;
     min-height: 36px;
