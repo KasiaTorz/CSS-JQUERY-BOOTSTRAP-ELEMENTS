@@ -523,10 +523,12 @@ ul.pricing-spec li span{
         display: block;
         box-sizing: border-box;
 }
-.btn-pricing.btn-blue {
-    background-color:#fff;
-    color:#386a8d;
-    border-color:#386a8d;
+a.btn.btn-lg.btn-general.btn-blue {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    border-color: skyblue;
     
 }
 
