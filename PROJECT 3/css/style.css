@@ -501,6 +501,13 @@ ul.pricing-spec{
     padding-left:0;
     margin:20px 0 60px 0;
 }
+ul.pricing-spec simple-prototyping{
+    margin-bottom: 91px;
+    margin-top:63px;
+}
+ul.pricing-spec system-of-web-design{
+    
+}
 
 ul.pricing-spec li strong{
     box-sizing: border-box;
