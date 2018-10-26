@@ -424,10 +424,9 @@ margin:0 0 30px 0px;
 .first-box{
     border: 3px solid #00d5e5;
     margin-bottom: 26px;
-    
-    padding-bottom:36px;
+    margin-top: 39px;
     padding-top: 53px;
-    margin-top: 39px;  
+    padding-bottom:50px;  
 }
 
 h4.pricing-title{
@@ -501,12 +500,14 @@ ul.pricing-spec{
     padding-left:0;
     margin:20px 0 60px 0;
 }
-ul.pricing-spec simple-prototyping{
-    margin-bottom: 91px;
-    margin-top:63px;
+ul.pricing-spec .simple-prototyping{
+    margin-top:67px;
+    margin-bottom:92px;
 }
-ul.pricing-spec system-of-web-design{
-    
+
+ul.pricing-spec .system-of-web-design{
+    margin-top:20px;
+    margin-bottom: 46px;
 }
 
 ul.pricing-spec li strong{
