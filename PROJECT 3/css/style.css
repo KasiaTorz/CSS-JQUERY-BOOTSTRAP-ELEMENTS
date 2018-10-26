@@ -112,12 +112,14 @@ p {
 .btn-white:focus {
     background-color: #fff;
     color: #386a8d;
+
 }
 
 .btn-blue {
     border-color:#fff;
     background-color:#fff;
     color:#386a8d;
+    border: 2px solid #386a8d;
     
 }
 
@@ -126,7 +128,7 @@ p {
     color:#fff;
     text-decoration: none;
 }
-.btn-blue:focus{
+.btn-blue:hover,.btn-blue:focus{
     background-color: #386a8d;
     color: #fff;
 }
@@ -520,6 +522,22 @@ ul.pricing-spec li span{
         text-align: left;
         display: block;
         box-sizing: border-box;
+}
+.btn-pricing.btn-blue {
+    background-color:#fff;
+    color:#386a8d;
+    border-color:#386a8d;
+    
+}
+
+.btn-pricing.btn-blue:hover {
+    background-color:#386a8d;
+    color:#fff;
+    text-decoration: none;
+}
+.btn-blue:hover,.btn-blue:focus{
+    background-color: #386a8d;
+    color: #fff;
 }
 
 
