@@ -503,7 +503,7 @@ ul.pricing-spec{
 ul.pricing-spec li strong{
     box-sizing: border-box;
     margin-bottom:18px;
-    margin-left:-44px; 
+    margin-left: 2px; 
     padding-right:160px;
     font-weight: bold;
     font-size: 14px;
