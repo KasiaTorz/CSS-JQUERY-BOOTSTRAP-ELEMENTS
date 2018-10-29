@@ -549,13 +549,14 @@ a.btn.btn-lg.btn-general.btn-blue {
     background-color: #386a8d;
     color: #fff;
 }
-#pricing-annotation{
+#pricing-annotation p{
     width: 100%;
     position: absolute;
     bottom: -57px;
     color:#00d5e5;
     font-size: 11px;
     text-align: center;
+    margin-left:130px;
 }
 
 
