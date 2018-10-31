@@ -576,3 +576,17 @@ a.btn.btn-lg.btn-general.btn-blue {
     text-align: center;
     margin: 0 0 30px 0px;
 }
+.state-item{
+ padding:100px 0;   
+}
+.state-item i{
+    color:#386a8d;
+}
+.state-item h2{
+    color:white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
