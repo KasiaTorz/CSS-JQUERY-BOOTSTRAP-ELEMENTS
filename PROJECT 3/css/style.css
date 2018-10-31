@@ -563,8 +563,16 @@ a.btn.btn-lg.btn-general.btn-blue {
 ==============================================================================================*/
 #status-cover{
     background-image:url("../img/REFERENCE/background-reference.jpg");
+    
 
 }
 #statistic .content-box{
-    background-color:transparent;
+    background-color:rgb( 153, 153, 103,0.4) ;
+}
+#content-title-statistic h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0px;
 }
