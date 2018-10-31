@@ -561,4 +561,10 @@ a.btn.btn-lg.btn-general.btn-blue {
 /*==============================================================================================
             STATISTIC- properties
 ==============================================================================================*/
+#status-cover{
+    background-image:url("../img/REFERENCE/background-reference.jpg");
 
+}
+#statistic .content-box{
+    background-color:transparent;
+}
