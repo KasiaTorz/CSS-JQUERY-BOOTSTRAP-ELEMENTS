@@ -38,7 +38,7 @@ $(function(){
 /*------- OWL CAROUSEL JS -CLIENTS----------*/
 $(function(){
     $("#clients-list").owlCarousel({
-           items:3,
+           items:6,
            autoplay:true,
            smartSpeed:600,
            loop:true,
