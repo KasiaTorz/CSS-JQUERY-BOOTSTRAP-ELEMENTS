@@ -416,7 +416,7 @@ margin:0 0 30px 0px;
 .pricing-box {
    border: 3px solid #00d5e5;
    padding: 50px 0;
-   margin: 40px 0;
+   margin: 17px 0;
 }
 .pricing-box-lg{
     background-color: #00d5e5;
@@ -424,9 +424,9 @@ margin:0 0 30px 0px;
 .first-box{
     border: 3px solid #00d5e5;
     margin-bottom: 26px;
-    margin-top: 39px;
-    padding-top: 53px;
-    padding-bottom:50px;  
+    margin-top: 18px;
+    padding-top: 43px;
+    padding-bottom:132px;  
 }
 
 h4.pricing-title{
@@ -599,3 +599,6 @@ a.btn.btn-lg.btn-general.btn-blue {
 /*==============================================================================================
             CLIENTS- properties
 ==============================================================================================*/
+.client{
+    padding: 0 40px;
+}
