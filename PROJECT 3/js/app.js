@@ -36,5 +36,13 @@ $(function(){
         });
     });
 /*------- OWL CAROUSEL JS -CLIENTS----------*/
-
+$(function(){
+    $("#clients-list").owlCarousel({
+           items:3,
+           autoplay:true,
+           smartSpeed:600,
+           loop:true,
+           autoplayHoverPause:true,
+       });
+    });
 
