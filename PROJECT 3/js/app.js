@@ -35,3 +35,6 @@ $(function(){
             time: 2000
         });
     });
+/*------- OWL CAROUSEL JS -CLIENTS----------*/
+
+
