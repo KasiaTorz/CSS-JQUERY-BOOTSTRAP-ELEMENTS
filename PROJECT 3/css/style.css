@@ -602,3 +602,14 @@ a.btn.btn-lg.btn-general.btn-blue {
 .client{
     padding: 0 40px;
 }
+
+/*==============================================================================================
+                    CONTACT section- properties
+==============================================================================================*/
+footer{
+    background-color: #386a8d;
+    padding-top:30px;
+    border-top:5px solid rgb(0,0,0,0.1);
+    
+
+}
