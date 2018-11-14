@@ -609,7 +609,15 @@ a.btn.btn-lg.btn-general.btn-blue {
 footer{
     background-color: #386a8d;
     padding-top:30px;
-    border-top:5px solid rgb(0,0,0,0.1);
-    
+    border-top:5px solid rgb(0,0,0,0.1);   
+}
 
+#contact-left h3 {
+    color: #fff;
+    font-size:27px;
+    font-weight: 700;
+}
+#contact-left p{
+    color:#fff;
+    margin-bottom: 30px;
 }
