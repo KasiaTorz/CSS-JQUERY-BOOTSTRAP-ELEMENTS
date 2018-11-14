@@ -641,6 +641,8 @@ address strong, #phone-mail strong{
 }
 address p{
     color:#053467;
-    margin-left: 30px;
-
+    margin-left: 15px;
+}
+#phone-mail span{
+    color:#053467;
 }
