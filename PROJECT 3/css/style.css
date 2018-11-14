@@ -334,8 +334,10 @@ h4.team-member-position{
     font-size:20px;
 
 }
-.icon-white{
-    
+.icon-white i{
+    color:#386a8d;
+    margin-left: 15px;
+
 }
 .icon-gray i.fab{
     color:#386a8d;
@@ -632,6 +634,8 @@ footer{
     background-repeat: no-repeat;
     background-size:contain;
     opacity: 0.8;
+    border: #d6d6d6;
+
 }
 address{
     padding-top: 10px;
