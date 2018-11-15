@@ -662,3 +662,13 @@ form .form-control{
     padding:  8px 16px;
     margin-bottom: 20px;
 }
+form .form-control{
+    background: transparent;
+    border-radius:0;
+    border-color: #fff;
+    font-size:15px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color:#fff;
+}
