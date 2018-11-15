@@ -653,3 +653,12 @@ address p{
 #phone-mail span{
     color:#053467;
 }
+form .form-control{
+    background:transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size:15px;
+    font-weight: 300;
+    padding:  8px 16px;
+    margin-bottom: 20px;
+}
