@@ -617,7 +617,7 @@ footer{
     border-top:5px solid rgb(0,0,0,0.1);   
 }
 
-#contact-left h3 {
+#contact-left h3 ,#contact-right{
     color: #fff;
     font-size:27px;
     font-weight: 700;
@@ -633,8 +633,8 @@ footer{
     background-image:url("../img/contact-element/world-map.jpg");
     background-repeat: no-repeat;
     background-size:contain;
-    opacity: 0.8;
-    border: #d6d6d6;
+    opacity: 0.6;
+    border-color: 1px #d6d6d6;
 
 }
 address{
