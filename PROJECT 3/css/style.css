@@ -680,3 +680,8 @@ form .form-control{
     padding: 30px 0;
     margin-top: 60px;
 }
+#footer-copyrights p{
+    margin: 0;
+    color:#fff;
+
+}
