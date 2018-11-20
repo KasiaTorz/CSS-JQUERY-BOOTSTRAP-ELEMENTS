@@ -706,3 +706,6 @@ form .form-control{
     margin: 0 10px;
     text-decoration: none; 
 }
+#footer-menu a:hover{
+    color:#34c6d3;
+}
