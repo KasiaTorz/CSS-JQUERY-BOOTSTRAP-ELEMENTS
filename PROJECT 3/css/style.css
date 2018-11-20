@@ -687,7 +687,7 @@ form .form-control{
 #footer-menu{
     float: left;
     color:#fff;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 200;
 
 }
@@ -703,7 +703,7 @@ form .form-control{
     color: #fff;
     font-size: 16px;
     font-weight: 300;
-    margin: 0 10px;
+    margin: 0 5px;
     text-decoration: none; 
 }
 #footer-menu a:hover{
