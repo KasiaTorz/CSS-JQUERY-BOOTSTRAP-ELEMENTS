@@ -683,9 +683,11 @@ form .form-control{
 #footer-copyrights p{
     margin: 0;
     color:#fff;
+    text-align: center;
+    font-size: 12px;
 }
 #footer-menu{
-    float: left;
+    text-align: center;
     color:#fff;
     font-size: 10px;
     font-weight: 200;
