@@ -736,5 +736,9 @@ text-transform: capitalize;
 letter-spacing:5px;
 padding-left:5px;
 padding-right: 5px;
-
 }
+.navbar-nav li:hover{
+    background: none;
+    color:#386a8d;
+}
+
