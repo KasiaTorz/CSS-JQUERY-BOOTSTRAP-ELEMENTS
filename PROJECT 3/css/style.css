@@ -719,6 +719,13 @@ form .form-control{
 
 }
 .agency-navbar-top{
-    background-color:rgba(0, 0,0);opacity:0.4;
+    background-color:rgba(0, 0,0);opacity:0.5;
+    padding: 20px 0;
+}
+.agency-nav-wrapper{
+    padding:0 85px;
 
+}
+ul.navbar-nav{
+    float:right;
 }
