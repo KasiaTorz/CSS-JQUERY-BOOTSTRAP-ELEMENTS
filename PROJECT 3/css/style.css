@@ -741,4 +741,8 @@ padding-right: 5px;
     background: none;
     color:#386a8d;
 }
+.navbar-toggle{
+background-color: rgb(0,0,0,0.1);
+border: 1px solid white;
+}
 
