@@ -45,4 +45,4 @@ $(function(){
            autoplayHoverPause:true,
        });
     });
-
+/*-------SHOW AND HIDE SCROLL MENU----------*/
