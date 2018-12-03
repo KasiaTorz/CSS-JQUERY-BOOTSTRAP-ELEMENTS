@@ -46,3 +46,6 @@ $(function(){
        });
     });
 /*-------SHOW AND HIDE SCROLL MENU in navigation----------*/
+$(function (){
+
+});
