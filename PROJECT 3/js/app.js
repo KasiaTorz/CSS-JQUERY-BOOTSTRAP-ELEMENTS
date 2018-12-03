@@ -48,8 +48,14 @@ $(function(){
 /*-------SHOW AND HIDE SCROLL MENU in navigation----------*/
 $(function (){
 
-    $(window).scroll()(function(){
-        
+    $(window).scroll(function(){
+        if($(this).scrollTop()<50){
+
+        }else{
+
+        }
+
+        });
     });
 
 
