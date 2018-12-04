@@ -59,3 +59,4 @@ $(function (){
 
         });
     });
+/*-------Smooth SCROLL  in navigation----------*/
