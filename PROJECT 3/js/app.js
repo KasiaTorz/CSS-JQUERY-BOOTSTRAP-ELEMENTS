@@ -60,3 +60,7 @@ $(function (){
         });
     });
 /*-------Smooth SCROLL  in navigation----------*/
+$ (function(){
+
+    
+});
