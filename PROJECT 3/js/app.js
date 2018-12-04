@@ -61,6 +61,8 @@ $(function (){
     });
 /*-------Smooth SCROLL  in navigation----------*/
 $ (function(){
+    $("a.smooth-scroll").click( function(event){
+        event.preventDefault();
+    });
 
-    
 });
