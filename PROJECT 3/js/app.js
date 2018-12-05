@@ -69,7 +69,7 @@ $ (function(){
         var section = $(this).attr("href");
 
         $('html, body').animate({
-            scrollTop:$(section).offset().top
+            scrollTop:$(section).offset().top -65
         },1250,"easeInOutExpo");
     });
 });
