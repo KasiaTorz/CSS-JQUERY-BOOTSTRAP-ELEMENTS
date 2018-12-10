@@ -138,7 +138,8 @@ p {
     bottom: 20px;
     right:20px;
     font-size:25px !important;
-    padding: 3px 15px;
+    padding: 3px 15px !important;
+    border-radius: 0 !important;
 }
 
 /*==============================================================================================
