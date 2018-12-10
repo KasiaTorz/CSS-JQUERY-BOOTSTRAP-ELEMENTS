@@ -56,6 +56,7 @@ $(function (){
         }else{
             //show
             $("nav").addClass("agency-navbar-top");
+            $("#back-to-top").fadeIn();
         }
 
         });
