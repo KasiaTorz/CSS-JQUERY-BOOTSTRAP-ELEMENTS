@@ -52,6 +52,7 @@ $(function (){
         if($(this).scrollTop()<50){
             //hide
             $("nav").removeClass("agency-navbar-top");
+            $("#back-to-top").fadeOut();
         }else{
             //show
             $("nav").addClass("agency-navbar-top");
