@@ -3,5 +3,7 @@
 ==============================================================================================*/
 /* large devices (desktops and laptops*/
 @media(min-widt:1200px){
-    
+    #home-heading h3{
+        color:blue;
+    }
 }
