@@ -27,4 +27,7 @@
         color:red;
     }
 }
-/*extra small paparmeters in landscape phones and portrait tablets*/
+/*extra small paparmeters in landscape phones and portrait tablets with extra more smaller parameters*/
+@media(max-width:767px){
+
+}
