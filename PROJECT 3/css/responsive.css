@@ -29,9 +29,13 @@
 }
 /*extra small paparmeters in landscape phones and portrait tablets with extra more smaller parameters*/
 @media(max-width:480px){
-
+    #home-heading h3{
+        color:pink;
+    }
 }
 
 @media(max-width:320px){
-
+    #home-heading h3{
+        color:purple;
+    }
 }
