@@ -8,9 +8,7 @@
 }
 /* medium parameters in landscape tablets & medium desktops*/
 @media(min-width:992px)and (max-width:1199px){
-    #home-heading h3{
-        color:yellow;
-    }
+   /* add customize parameters from bootstrap website*/
 }
 
 /* small parameters for portrait tablets & small desktops */
