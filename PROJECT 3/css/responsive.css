@@ -3,9 +3,8 @@
 ==============================================================================================*/
 /* large devices (desktops and laptops*/
 @media(min-width:1200px){
-    #home-heading h3{
-        color:blue;
-    }
+   
+    
 }
 /* medium parameters in landscape tablets & medium desktops*/
 @media(min-width:992px)and (max-width:1199px){
