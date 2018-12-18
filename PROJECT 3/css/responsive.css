@@ -9,11 +9,12 @@
 /* medium parameters in landscape tablets & medium desktops*/
 @media(min-width:992px)and (max-width:1199px){
    /* add customize parameters from bootstrap website*/
+   /*mobile menu*/
    .navbar{
         background: rgba(0,0,0,.7);
         padding: 0;
    }
-   .nav navbar-nav{
+   .navbar-nav{
        float: left;
    }
    .agency-nav-wrapper{
