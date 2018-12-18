@@ -9,6 +9,8 @@
 /* medium parameters in landscape tablets & medium desktops*/
 @media(min-width:992px)and (max-width:1199px){
    /* add customize parameters from bootstrap website*/
+   .navbar{
+        background: rgba(0,0,0,.7);
 }
 
 /* small parameters for portrait tablets & small desktops */
