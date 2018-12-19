@@ -24,9 +24,16 @@
 
 /* small parameters for portrait tablets & small desktops */
 @media(min-width:768px)and (max-width:991px){
-    #home-heading h3{
-        color:green;
-    }
+    .navbar{
+        background: rgba(0,0,0,.7);
+        padding: 0;
+   }
+   .navbar-nav{
+       float: left;
+   }
+   .agency-nav-wrapper{
+       padding: 0;
+   }
 }
 
 /* extra small parameters for landscape smarthphones and portrait tablets*/
