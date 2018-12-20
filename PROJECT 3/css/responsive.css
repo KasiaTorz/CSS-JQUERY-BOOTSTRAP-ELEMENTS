@@ -34,7 +34,11 @@
    .agency-nav-wrapper{
        padding: 0;
    }
+   
+   /* clear responsive ABOUTUS section*/
 }
+
+
 
 /* extra small parameters for landscape smarthphones and portrait tablets*/
 @media(max-width:767px){
