@@ -38,6 +38,7 @@
    /* clear responsive ABOUT_US section*/
    .about-bg-diagonal{
        border-left:0;
+       border-top:0;
    }
 }
 
