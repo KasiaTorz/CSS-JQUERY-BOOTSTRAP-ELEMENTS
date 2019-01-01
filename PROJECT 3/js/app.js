@@ -54,9 +54,7 @@ $(function(){
             },
             // breakpoint from 768 up
             768 : {
-                option1 : value,
-                option2 : value,
-                ...
+                
             }
         }
        });
