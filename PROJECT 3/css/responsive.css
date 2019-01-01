@@ -47,6 +47,9 @@
        height: 350px;
    }
    /*STATISTIC section*/
+   .state-item{
+       
+   }
 
 /* extra small parameters for landscape smarthphones and portrait tablets*/
 @media(max-width:767px){
