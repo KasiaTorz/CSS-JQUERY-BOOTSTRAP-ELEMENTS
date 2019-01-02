@@ -44,7 +44,7 @@ $(function(){
            loop:true,
            autoplayHoverPause:true,
            responsive : {
-            // breakpoint from 0 up
+                // breakpoint from 0 up
                 0 : {
                  items:1
                 },
@@ -55,8 +55,12 @@ $(function(){
                 // breakpoint from 768 up
                 768 : {
                     items:5
+                },
+                // breakpoint from 992 up
+                992:{
+                    items:6
                 }
-        }
+            }
        });
     });
 /*-------SHOW AND HIDE SCROLL MENU in navigation----------*/
