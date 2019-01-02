@@ -45,17 +45,17 @@ $(function(){
            autoplayHoverPause:true,
            responsive : {
             // breakpoint from 0 up
-            0 : {
-               
-            },
-            // breakpoint from 480 up
-            480 : {
-               
-            },
-            // breakpoint from 768 up
-            768 : {
-                
-            }
+                0 : {
+                 items:1
+                },
+                // breakpoint from 480 up
+                480 : {
+                    items:3
+                },
+                // breakpoint from 768 up
+                768 : {
+                    items:5
+                }
         }
        });
     });
