@@ -50,6 +50,9 @@
    .state-item{
        padding:20px 0px;
    }
+   .footer-copyrights{
+       text-align: center;
+   }
 
 /* extra small parameters for landscape smarthphones and portrait tablets*/
 @media(max-width:767px){
