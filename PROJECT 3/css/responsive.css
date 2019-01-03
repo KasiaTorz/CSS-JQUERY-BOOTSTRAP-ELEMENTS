@@ -52,13 +52,12 @@
    }
    .footer-copyrights{
        text-align: center;
+
    }
 
 /* extra small parameters for landscape smarthphones and portrait tablets*/
 @media(max-width:767px){
-    #home-heading h3{
-        color:red;
-    }
+   
 }
 /*extra small paparmeters in landscape phones and portrait tablets with extra more smaller parameters*/
 @media(max-width:480px){
