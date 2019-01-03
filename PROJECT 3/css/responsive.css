@@ -57,9 +57,10 @@
 
 /* extra small parameters for landscape smarthphones and portrait tablets*/
 @media(max-width:767px){
+    /*mobile menu*/
    
 /*home-heading*/
-    #home-heading{
+    #home-heading h3{
         font-size:24px;
     }
 }
