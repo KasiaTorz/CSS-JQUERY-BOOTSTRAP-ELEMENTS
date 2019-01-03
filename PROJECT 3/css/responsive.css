@@ -58,9 +58,9 @@
 /* extra small parameters for landscape smarthphones and portrait tablets*/
 @media(max-width:767px){
    
-
+/*home-heading*/
     #home-heading{
-        
+        font-size:24px;
     }
 }
 /*extra small paparmeters in landscape phones and portrait tablets with extra more smaller parameters*/
