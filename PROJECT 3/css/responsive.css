@@ -89,7 +89,7 @@
     height: 350px;
 }
 .img-wrapper img {
-
+    min-width: 100%;
 }
 }
 /*extra small paparmeters in landscape phones and portrait tablets with extra more smaller parameters*/
