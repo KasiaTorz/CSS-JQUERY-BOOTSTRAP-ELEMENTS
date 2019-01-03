@@ -58,7 +58,16 @@
 /* extra small parameters for landscape smarthphones and portrait tablets*/
 @media(max-width:767px){
     /*mobile menu*/
-   
+    .navbar{
+        background: rgba(0,0,0,.7);
+        padding: 0;
+   }
+   .navbar-nav{
+       float: left;
+   }
+   .agency-nav-wrapper{
+       padding: 0;
+   }
 /*home-heading*/
     #home-heading h3{
         font-size:24px;
