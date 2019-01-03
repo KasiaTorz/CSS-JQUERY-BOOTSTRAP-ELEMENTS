@@ -72,6 +72,10 @@
     #home-heading h3{
         font-size:24px;
     }
+    /*buttons*/
+    .btn-general{
+        
+    }
 }
 /*extra small paparmeters in landscape phones and portrait tablets with extra more smaller parameters*/
 @media(max-width:480px){
