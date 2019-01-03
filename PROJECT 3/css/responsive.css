@@ -88,6 +88,9 @@
     width:100%;
     height: 350px;
 }
+.img-wrapper img {
+
+}
 }
 /*extra small paparmeters in landscape phones and portrait tablets with extra more smaller parameters*/
 @media(max-width:480px){
