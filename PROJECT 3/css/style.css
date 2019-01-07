@@ -788,7 +788,7 @@ html{
     
 }
    .p-blog {
-    color:rgb(197, 31, 142) !important;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-size:20px;
+    font-weight:200;
+    
 }
