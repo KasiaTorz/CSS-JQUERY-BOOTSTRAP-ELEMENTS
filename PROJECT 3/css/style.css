@@ -800,6 +800,9 @@ html{
     font-size:20px;
     font-weight:200;
     }
-    .blue{
+    .blue-blog{
         color:#1f98ff;
+    }
+    .bold-blog{
+        font-weight:500;
     }
