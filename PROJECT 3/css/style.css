@@ -799,5 +799,7 @@ html{
    .p-blog {
     font-size:20px;
     font-weight:200;
-
-}
+    }
+    .blue{
+        color:#1f98ff;
+    }
