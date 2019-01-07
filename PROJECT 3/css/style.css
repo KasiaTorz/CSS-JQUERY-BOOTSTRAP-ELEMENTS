@@ -775,16 +775,20 @@ border-radius:0;
 /*==============================================================================================
                     BLOG- properties
 ==============================================================================================*/
-/*{
+
+html{
+    font-family:proxima nova;
     margin: 0;
     padding:0;
     border:0;
-    outline:font-size:100%
+    outline:0;
+    font-size:50%;
     vertical-align:baseline;
-    background:transparent;
+    /*background:transparent (0,0,0,0.1);*/
+    
 }
-html{
-    font-size:proxima nova;
+   .p-blog {
+    color:rgb(197, 31, 142) !important;
+    font-family: Arial, Helvetica, sans-serif;
 
-
-*/
+}
