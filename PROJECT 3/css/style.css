@@ -787,8 +787,13 @@ html{
     /*background:transparent (0,0,0,0.1);*/
     
 }
+
+    .h1-blog{
+        font-size:40px;
+    }
+    
    .p-blog {
     font-size:20px;
     font-weight:200;
-    
+
 }
