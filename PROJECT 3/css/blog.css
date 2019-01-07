@@ -1,0 +1,19 @@
+/*==============================================================================================
+                    BLOG- properties
+==============================================================================================*/
+
+html{
+    font-size:proxima nova;
+    margin: 0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:50%;
+    vertical-align:baseline;
+    /*background:transparent (0,0,0,0.1);*/
+    background-color: blue;
+}
+h3 #h3-blog{
+    color:tomato;
+
+}
