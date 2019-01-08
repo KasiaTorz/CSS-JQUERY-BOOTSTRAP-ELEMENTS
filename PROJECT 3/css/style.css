@@ -836,4 +836,9 @@ html{
         color:#65747e;
         font-size:26px;
     }
-    
+    .menu-blog{
+        margin-left:50px;
+    }
+    .search-blog{
+        margin-right: 50px;
+    }
