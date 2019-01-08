@@ -814,3 +814,21 @@ html{
         height:80%;
         margin:auto;
     }
+    .navWrapper-blog a{
+        float: left;
+        margin-top:3em;
+        text-decoration: none;
+    }
+    .right-blog{
+        float:right;
+    }
+    .menu-blog,.search-blog{
+        display:flex;
+        align-items: center;
+    }
+    .menu-blog img{
+        margin-right: 10px;
+    }
+    .search-blog img{
+        margin-left: 10px;
+    }
