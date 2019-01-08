@@ -832,3 +832,6 @@ html{
     .search-blog img{
         margin-left: 10px;
     }
+    .menu-blog, .search-blog{
+        color:#65747e;
+    }
