@@ -854,4 +854,9 @@ html{
         display: block;
         height: 880px;
         background-image: url("../img/blog-images/david-henrichs-399195.jpg");
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        position: relative;
+
     }
