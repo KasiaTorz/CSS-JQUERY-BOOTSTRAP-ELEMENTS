@@ -845,3 +845,13 @@ html{
     .navIcon-blog{
         margin-right: 30px;
     }
+    .imageSection-blog{
+        width: 100%;  
+    }
+    .imageSectionWrapper-blog{
+        width: 80%;
+        margin:auto;
+        display: block;
+        height: 880px;
+        background-image: url("../img/blog-images/david-henrichs-399195.jpg");
+    }
