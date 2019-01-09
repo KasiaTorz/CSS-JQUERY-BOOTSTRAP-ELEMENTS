@@ -873,6 +873,18 @@ html{
         border-radius: 2px;
         margin:0 0 20px -60px;
     }
+    .info-blog{
+        color: #fff;
+        background-color: #1c2329;
+        width: 680px;
+        opacity: 0.97;
+        border-radius: 2px;
+        margin:0 0 40px -40px;
+        padding: 0.25em 0.25em 0.25em 0.25em;
+    }
+    .info-blog p{
+        margin: 15px 0;
+    }
 
 
 
