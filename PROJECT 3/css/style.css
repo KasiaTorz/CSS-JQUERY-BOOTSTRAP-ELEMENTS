@@ -859,4 +859,21 @@ html{
         background-repeat: no-repeat;
         position: relative;
     }
-    
+    .blogPostInfo-blog{
+        position: absolute;
+        bottom:0;
+    }
+    .imageSectionWrapper-blog h3{
+        color: #fff;
+        background-color: #1c2329;
+        width: 680px;
+        text-align: center;
+        padding: 0.25em;
+        opacity: 0.97;
+        border-radius: 2px;
+        margin:0 0 20px -60px;
+    }
+
+
+
+
