@@ -889,5 +889,19 @@ html{
     .content-blog{
         width: 100%;
     }
+    .contentWrapper-blog{
+        width: 80%;
+        margin:auto;
+        display: flex;
+    }
+    .mainContent-blog{
+        flex:3;
+    }
+    .sideBar-blog{
+        flex: 1;
+        margin-right: 30px;
+        text-align: right;
+    }
+
 
 
