@@ -943,9 +943,12 @@ html{
     }
     .relatedLeft-blog{
         float: left;
+        width: 50%;
     }
     .relatedRight-blog{
         float: right;
+        width: 50%;
+        padding-left: 30px;
     }
     .relatedLeft-blog ,.relatedRight-blog{
         flex: 1;
