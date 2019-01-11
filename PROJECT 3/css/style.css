@@ -934,7 +934,22 @@ html{
     .relatedChild-blog h3{
         margin:0;
     }
-    .relatedChild-blogp{
+    .relatedChild-blog p{
         margin:0 0 5px 0;
         line-height: 30px;
+    }
+    .relatedChild-blog a{
+        text-decoration: none;
+    }
+    .relatedLeft-blog{
+        float: left;
+    }
+    .relatedRight-blog{
+        float: right;
+    }
+    .relatedLeft-blog ,.relatedRight-blog{
+        flex: 1;
+    }
+    .related-blog{
+        margin-bottom: 100px;
     }
