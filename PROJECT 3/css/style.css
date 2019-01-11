@@ -934,3 +934,7 @@ html{
     .relatedChild-blog h3{
         margin:0;
     }
+    .relatedChild-blogp{
+        margin:0 0 5px 0;
+        line-height: 30px;
+    }
