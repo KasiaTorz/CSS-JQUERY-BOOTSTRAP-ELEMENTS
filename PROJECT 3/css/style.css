@@ -931,3 +931,6 @@ html{
         display: flex;
         align-items: center;
     }
+    .relatedChild-blog h3{
+        margin:0;
+    }
